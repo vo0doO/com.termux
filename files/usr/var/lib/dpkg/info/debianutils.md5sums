@@ -1,0 +1,14 @@
+285902357427c98299fb0b5801666522  data/data/com.termux/files/usr/share/man/man1/ischroot.1
+aaf08c1cb87ffcaa45cc1b72a46b0da7  data/data/com.termux/files/usr/share/man/man1/tempfile.1
+c215ce2dc58893ce3502893d65df5801  data/data/com.termux/files/usr/share/man/man1/which.1
+4e88ac080a9740c2081654669cf8a0f2  data/data/com.termux/files/usr/share/man/man8/add-shell.8
+b5c98e44cdb187790609a1d7e36ff653  data/data/com.termux/files/usr/share/man/man8/run-parts.8
+606a448300e3ad18e4093c675e1120be  data/data/com.termux/files/usr/share/man/man8/savelog.8
+ca9bded6ac3977c7848c8e93ae33978b  data/data/com.termux/files/usr/share/man/man8/remove-shell.8
+da6b196a46002ba048346c61c47fc69f  data/data/com.termux/files/usr/bin/add-shell
+7bc2b182e18cba6b20b633b5b9244107  data/data/com.termux/files/usr/bin/which
+aa9bcd6247b96d4af66fc9d15d519549  data/data/com.termux/files/usr/bin/savelog
+a6e64cf64498a57080fa07c58c76b0ad  data/data/com.termux/files/usr/bin/ischroot
+7873f55fbc2622dbc051769682def276  data/data/com.termux/files/usr/bin/run-parts
+014345e63c077b225854146df6f95b38  data/data/com.termux/files/usr/bin/tempfile
+fd51bcfe0442804defaa1adf79946f56  data/data/com.termux/files/usr/bin/remove-shell

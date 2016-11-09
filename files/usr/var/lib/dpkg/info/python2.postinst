@@ -1,0 +1,4 @@
+echo 'Setting up pip2...'
+if [ ! -f /data/data/com.termux/files/usr/bin/pip2 -a -d /data/data/com.termux/files/usr/lib/python2.7/site-packages/pip-*.dist-info ]; then rm -Rf /data/data/com.termux/files/usr/lib/python2.7/site-packages/pip-*.dist-info ; fi
+/data/data/com.termux/files/usr/bin/python2 -m ensurepip --upgrade --no-default-pip
+exit 0

@@ -1,0 +1,100 @@
+Package: libbz2
+Architecture: arm
+Auto-Installed: 1
+
+Package: openssl
+Architecture: arm
+Auto-Installed: 1
+
+Package: libcrypt
+Architecture: arm
+Auto-Installed: 1
+
+Package: libsqlite
+Architecture: arm
+Auto-Installed: 1
+
+Package: libffi
+Architecture: arm
+Auto-Installed: 1
+
+Package: ncurses-ui-libs
+Architecture: arm
+Auto-Installed: 1
+
+Package: gdbm
+Architecture: arm
+Auto-Installed: 1
+
+Package: libutil
+Architecture: arm
+Auto-Installed: 1
+
+Package: ca-certificates
+Architecture: arm
+Auto-Installed: 1
+
+Package: libcurl
+Architecture: arm
+Auto-Installed: 1
+
+Package: less
+Architecture: arm
+Auto-Installed: 1
+
+Package: libnghttp2
+Architecture: arm
+Auto-Installed: 1
+
+Package: libpcap
+Architecture: arm
+Auto-Installed: 1
+
+Package: libandroid-glob
+Architecture: arm
+Auto-Installed: 1
+
+Package: resolv-conf
+Architecture: arm
+Auto-Installed: 1
+
+Package: pcre
+Architecture: arm
+Auto-Installed: 1
+
+Package: perl
+Architecture: arm
+Auto-Installed: 1
+
+Package: libvorbis
+Architecture: arm
+Auto-Installed: 1
+
+Package: libogg
+Architecture: arm
+Auto-Installed: 1
+
+Package: libflac
+Architecture: arm
+Auto-Installed: 1
+
+Package: glib
+Architecture: arm
+Auto-Installed: 1
+
+Package: ldns
+Architecture: arm
+Auto-Installed: 1
+
+Package: c-ares
+Architecture: arm
+Auto-Installed: 1
+
+Package: libevent
+Architecture: arm
+Auto-Installed: 1
+
+Package: libtalloc
+Architecture: arm
+Auto-Installed: 1
+

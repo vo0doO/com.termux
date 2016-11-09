@@ -1,0 +1,4 @@
+echo "Setting up pip..."
+if [ ! -f /data/data/com.termux/files/usr/bin/pip -a -d /data/data/com.termux/files/usr/lib/python3.5/site-packages/pip-*.dist-info ]; then rm -Rf /data/data/com.termux/files/usr/lib/python3.5/site-packages/pip-*.dist-info ; fi
+/data/data/com.termux/files/usr/bin/python -m ensurepip --upgrade --default-pip
+exit 0

@@ -1,0 +1,2 @@
+# The main termux repository:
+deb [arch=all,arm] http://termux.net stable main

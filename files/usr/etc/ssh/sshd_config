@@ -1,0 +1,4 @@
+PasswordAuthentication no
+UsePrivilegeSeparation no
+PubkeyAcceptedKeyTypes +ssh-dss
+Subsystem sftp /data/data/com.termux/files/usr/libexec/sftp-server

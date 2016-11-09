@@ -1,0 +1,17 @@
+0ef2dc0e427eb193328b0e4bd4b053f6  data/data/com.termux/files/usr/share/man/man5/man.conf.5
+69283ff8080dd984bad5c51e45fabbbe  data/data/com.termux/files/usr/share/man/man5/mandoc.db.5
+4fd32fae72405d9d427ac52673d4c26a  data/data/com.termux/files/usr/share/man/man7/roff.7
+27362e8ab55031b37c5a953e3d73f955  data/data/com.termux/files/usr/share/man/man7/tbl.7
+b0cf2b2d8be49e52d52471c97312b146  data/data/com.termux/files/usr/share/man/man7/man.7
+517b0bfef3860f44d1ee7c5bd9c59851  data/data/com.termux/files/usr/share/man/man7/mdoc.7
+6ef9bc5c7c7dcfe686199609a54e26d5  data/data/com.termux/files/usr/share/man/man7/eqn.7
+108f74b74f5f3f31c07decdb6e4e4836  data/data/com.termux/files/usr/share/man/man7/mandoc_char.7
+15e4bd846fb114944b5901f558baa273  data/data/com.termux/files/usr/share/man/man1/demandoc.1
+68bfb990425c0f535708757ceed14428  data/data/com.termux/files/usr/share/man/man1/mandoc.1
+d64f96f8b5a5fb57d1b185169201c079  data/data/com.termux/files/usr/share/man/man1/apropos.1
+dfe11f703eec14e871c17cb930f1baac  data/data/com.termux/files/usr/share/man/man1/soelim.1
+e520a2605748e1c9c10ffc73e2be483f  data/data/com.termux/files/usr/share/man/man1/man.1
+88c709cfeb16b0c14169a880cea9d38a  data/data/com.termux/files/usr/share/man/man8/makewhatis.8
+aa1ee9762df3b17f9eff3d1ac1d6a043  data/data/com.termux/files/usr/bin/soelim
+1e464959210da5fc5851993d60e951b1  data/data/com.termux/files/usr/bin/mandoc
+13dbfabb32450f07da7b7632d9d70314  data/data/com.termux/files/usr/bin/demandoc

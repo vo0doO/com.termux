@@ -1,0 +1,626 @@
+Package: libnghttp2
+Status: install ok installed
+Installed-Size: 144
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 1.16.0
+Description: nghttp HTTP 2.0 library
+Homepage: https://nghttp2.org/
+
+Package: tree
+Status: install ok installed
+Installed-Size: 120
+Maintainer: Gert Scholten <gscholt@gmail.com>
+Architecture: arm
+Version: 1.7.0-2
+Depends: libandroid-support
+Description: Recursive directory lister producing a depth indented listing of files
+Homepage: http://mama.indstate.edu/users/ice/tree/
+
+Package: liblzma
+Status: install ok installed
+Installed-Size: 152
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 5.2.2
+Description: XZ-format compression library
+Homepage: http://tukaani.org/xz/
+
+Package: less
+Status: install ok installed
+Installed-Size: 260
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 481
+Depends: ncurses
+Description: Terminal pager program used to view the contents of a text file one screen at a time
+Homepage: http://www.greenwoodsoftware.com/less/
+
+Package: parallel
+Status: install ok installed
+Installed-Size: 892
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: all
+Version: 20160922
+Depends: perl
+Description: GNU Parallel is a shell tool for executing jobs in parallel using one or more machines
+Homepage: http://www.gnu.org/software/parallel/
+
+Package: proot
+Status: install ok installed
+Installed-Size: 200
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 5.1.101
+Depends: libtalloc
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
+Homepage: http://proot.me/
+
+Package: libutil
+Status: install ok installed
+Installed-Size: 36
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 0.2
+Description: Library with terminal functions
+Homepage: https://refspecs.linuxbase.org/LSB_2.1.0/LSB-generic/LSB-generic/libutil.html
+
+Package: libtalloc
+Status: install ok installed
+Installed-Size: 68
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 2.1.8
+Description: Hierarchical, reference counted memory pool system with destructors
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+
+Package: libbz2
+Status: install ok installed
+Installed-Size: 92
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.0.6
+Description: BZ2 format compression library
+Homepage: http://www.bzip.org/
+
+Package: debianutils
+Status: install ok installed
+Installed-Size: 128
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 4.8
+Description: Small utilities which are used primarily by the installation scripts of Debian packages
+Homepage: https://packages.debian.org/debianutils
+
+Package: nmap
+Status: install ok installed
+Installed-Size: 22196
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 7.31
+Depends: libpcap, pcre, openssl, resolv-conf, netcat
+Description: Utility for network discovery and security auditing
+Homepage: https://nmap.org/
+
+Package: curl
+Status: install ok installed
+Installed-Size: 308
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 7.51.0
+Depends: libcurl
+Description: Command line tool for transferring data with URL syntax
+Homepage: http://curl.haxx.se/
+
+Package: nodejs
+Status: install ok installed
+Installed-Size: 28444
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 6.9.1
+Depends: openssl, c-ares
+Description: Platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications
+Homepage: http://nodejs.org/
+
+Package: bash
+Status: install ok installed
+Installed-Size: 1244
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 4.4.0
+Depends: ncurses, readline, libandroid-support, termux-tools, command-not-found
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+Homepage: http://www.gnu.org/software/bash/
+
+Package: busybox
+Essential: yes
+Status: install ok installed
+Installed-Size: 744
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 1.25.1
+Conflicts: coreutils (<< 8.25-4)
+Description: Tiny versions of many common UNIX utilities into a single small executable
+Homepage: http://www.busybox.net/
+
+Package: ncurses-ui-libs
+Status: install ok installed
+Installed-Size: 112
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 6.0.20160924
+Depends: ncurses
+Description: Libraries for terminal user interfaces based on ncurses
+Homepage: http://invisible-island.net/ncurses/
+
+Package: libandroid-glob
+Status: install ok installed
+Installed-Size: 40
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 0.3
+Description: Shared library for the glob(3) system function
+Homepage: http://man7.org/linux/man-pages/man3/glob.3.html
+
+Package: libflac
+Status: install ok installed
+Installed-Size: 336
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.3.1
+Depends: libogg
+Description: FLAC (Free Lossless Audio Codec) library
+Homepage: https://xiph.org/flac/
+
+Package: termux-elf-cleaner
+Status: install ok installed
+Installed-Size: 40
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.1
+Description: Cleaner of ELF files for Android
+Homepage: https://termux.com/
+
+Package: gpgv
+Status: install ok installed
+Installed-Size: 332
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.4.21-1
+Conflicts: gnupg (<= 1.4.21)
+Description: GNU privacy guard - signature verification tool
+Homepage: http://www.gnupg.org/
+
+Package: libogg
+Status: install ok installed
+Installed-Size: 56
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.3.2
+Description: Library for working with the Ogg multimedia container format
+Homepage: http://xiph.org/ogg/
+
+Package: sharutils
+Status: install ok installed
+Installed-Size: 492
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 4.15.2
+Description: Utilities for packaging and unpackaging shell archives
+Homepage: http://www.gnu.org/software/sharutils/
+
+Package: dash
+Essential: yes
+Status: install ok installed
+Installed-Size: 204
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 0.5.9.1
+Description: Small POSIX-compliant implementation of /bin/sh
+Homepage: http://gondor.apana.org.au/~herbert/dash/
+
+Package: pcre
+Status: install ok installed
+Installed-Size: 268
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 8.39
+Description: Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
+Homepage: http://www.pcre.org/
+
+Package: libandroid-support
+Essential: yes
+Status: install ok installed
+Installed-Size: 176
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 13.10
+Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+
+Package: man
+Status: install ok installed
+Installed-Size: 800
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 1.13.4-3
+Depends: less, libandroid-glob, libsqlite
+Description: Man page viewer from the mandoc toolset
+Homepage: http://mdocml.bsd.lv/
+
+Package: gdbm
+Status: install ok installed
+Installed-Size: 212
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.12
+Description: Library of database functions that use extensible hashing
+Homepage: http://www.gnu.org.ua/software/gdbm/
+
+Package: glib
+Status: install ok installed
+Installed-Size: 11112
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 2.50.1-1
+Depends: libffi, pcre, libandroid-support
+Description: Library providing core building blocks for libraries and applications written in C
+Homepage: https://developer.gnome.org/glib/
+
+Package: libcurl
+Status: install ok installed
+Installed-Size: 348
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 7.51.0
+Depends: openssl, libnghttp2
+Description: Easy-to-use client-side URL transfer library
+Homepage: http://curl.haxx.se/
+
+Package: command-not-found
+Status: install ok installed
+Installed-Size: 76
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.13
+Description: Suggest installation of packages in interactive shell sessions
+Homepage: http://termux.com
+
+Package: coreutils
+Status: install ok installed
+Installed-Size: 1524
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 8.25-6
+Description: Basic file, shell and text manipulation utilities from the GNU project
+Homepage: http://www.gnu.org/software/coreutils/
+
+Package: python2
+Status: install ok installed
+Installed-Size: 35092
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 2.7.12-3
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libutil, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt
+Description: Python 2 programming language intended to enable clear programs
+Homepage: http://python.org/
+
+Package: procps
+Status: install ok installed
+Installed-Size: 740
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 3.3.12
+Depends: ncurses
+Description: Utilities that give information about processes using the /proc filesystem
+Homepage: https://packages.debian.org/sid/procps
+
+Package: ncurses
+Status: install ok installed
+Installed-Size: 528
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 6.0.20160924
+Description: Library for text-based user interfaces in a terminal-independent manner
+Homepage: http://invisible-island.net/ncurses/
+
+Package: perl
+Status: install ok installed
+Installed-Size: 64764
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 5.24.0
+Description: Capable, feature-rich programming language
+Homepage: http://www.perl.org/
+
+Package: resolv-conf
+Status: install ok installed
+Installed-Size: 32
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.0
+Description: Resolver configuration file
+Homepage: http://man7.org/linux/man-pages/man5/resolv.conf.5.html
+
+Package: libvorbis
+Status: install ok installed
+Installed-Size: 720
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.3.5
+Depends: libogg
+Description: Library for using the Ogg Vorbis compressed audio format
+Homepage: http://www.vorbis.com/
+
+Package: libpcap
+Status: install ok installed
+Installed-Size: 312
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.7.4
+Description: Library for network traffic capture
+Homepage: http://www.tcpdump.org/
+
+Package: xz-utils
+Status: install ok installed
+Installed-Size: 252
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 5.2.2
+Depends: liblzma
+Description: XZ-format compression tools
+Homepage: http://tukaani.org/xz/
+
+Package: vim-python
+Status: install ok installed
+Installed-Size: 1868
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 8.0.0055
+Depends: ncurses, vim-runtime, python
+Conflicts: vim
+Description: Vi IMproved - enhanced vi editor - with python support
+Homepage: http://www.vim.org/
+
+Package: p7zip
+Status: install ok installed
+Installed-Size: 3552
+Maintainer: Francisco Demartino <demartino.francisco@gmail.com>
+Architecture: arm
+Version: 16.02
+Description: Command-line version of the 7zip compressed file archiver
+Homepage: http://p7zip.sourceforge.net/
+
+Package: libevent
+Status: install ok installed
+Installed-Size: 244
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 2.0.22-1
+Description: Library that provides asynchronous event notification
+Homepage: http://libevent.org/
+
+Package: dpkg
+Essential: yes
+Status: install ok installed
+Installed-Size: 968
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.18.10
+Depends: busybox, liblzma
+Description: Debian package management system
+Homepage: https://packages.debian.org/dpkg
+
+Package: netcat
+Status: install ok installed
+Installed-Size: 360
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 7.31
+Depends: libpcap, openssl
+Description: Feature-packed networking utility which reads and writes data across networks from the command line
+Homepage: https://nmap.org/
+
+Package: c-ares
+Status: install ok installed
+Installed-Size: 88
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 1.12.0
+Description: C library for asynchronous DNS requests (including name resolves)
+Homepage: https://c-ares.haxx.se
+
+Package: openssl
+Status: install ok installed
+Installed-Size: 1692
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.0.2j
+Depends: ca-certificates
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+Homepage: https://www.openssl.org/
+
+Package: libcrypt
+Status: install ok installed
+Installed-Size: 48
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 0.2
+Depends: openssl
+Description: A crypt(3) implementation
+Homepage: http://michael.dipperstein.com/crypt/
+
+Package: libgnustl
+Status: install ok installed
+Installed-Size: 724
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 12-4
+Description: The GNU Standard C++ Library (a.k.a. libstdc++-v3), necessary on android since the system libstdc++.so is stripped down
+Homepage: http://gcc.gnu.org/onlinedocs/libstdc++/
+
+Package: libsqlite
+Status: install ok installed
+Installed-Size: 616
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 3.15.0
+Description: Software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine
+Homepage: http://www.sqlite.org/
+
+Package: tmux
+Status: install ok installed
+Installed-Size: 556
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 2.3
+Depends: ncurses, libevent, libutil, libandroid-support
+Description: Terminal multiplexer implementing switching between several programs in one terminal, detaching them and reattaching them to a different terminal
+Homepage: http://tmux.github.io/
+
+Package: vorbis-tools
+Status: install ok installed
+Installed-Size: 232
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.4.0-1
+Depends: libvorbis, libflac
+Description: Ogg Vorbis tools
+Homepage: http://www.vorbis.com
+
+Package: apt
+Essential: yes
+Status: install ok installed
+Installed-Size: 1512
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.2.12-1
+Depends: liblzma, dpkg, gpgv
+Description: Front-end for the dpkg package manager
+Homepage: https://packages.debian.org/apt
+
+Package: mc
+Status: install ok installed
+Installed-Size: 2596
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 4.8.18
+Depends: libandroid-support, ncurses, glib
+Description: Midnight Commander - a powerful file manager
+Homepage: https://www.midnight-commander.org/
+
+Package: vim-runtime
+Status: install ok installed
+Installed-Size: 20144
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 8.0.0055
+Description: Vi IMproved - Runtime files
+Homepage: http://www.vim.org/
+
+Package: texinfo
+Status: install ok installed
+Installed-Size: 6748
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 6.3
+Depends: ncurses, perl
+Description: Documentation system for on-line information and printed output
+Homepage: https://www.gnu.org/software/texinfo/
+
+Package: ldns
+Status: install ok installed
+Installed-Size: 264
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 1.6.17
+Depends: openssl
+Description: Library for simplifying DNS programming and supporting recent and experimental RFCs
+Homepage: http://www.nlnetlabs.nl/projects/ldns/
+
+Package: libffi
+Status: install ok installed
+Installed-Size: 52
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 3.2.1-2
+Description: Library providing a portable, high level programming interface to various calling conventions
+Homepage: https://sourceware.org/libffi/
+
+Package: ca-certificates
+Status: install ok installed
+Installed-Size: 288
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: all
+Version: 20160907
+Description: Common CA certificates
+Homepage: http://curl.haxx.se/docs/caextract.html
+
+Package: openssh
+Status: install ok installed
+Installed-Size: 4160
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 7.3p1
+Depends: libandroid-support, ldns, openssl
+Description: Secure shell for logging into a remote machine
+Homepage: http://www.openssh.com/
+
+Package: termux-create-package
+Status: install ok installed
+Installed-Size: 32
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: all
+Version: 0.1
+Depends: python
+Description: Utility to create Termux packages
+Homepage: https://github.com/termux/termux-create-package
+
+Package: git
+Status: install ok installed
+Installed-Size: 18076
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 2.10.2
+Depends: libcurl, less
+Description: Distributed version control system designed to handle everything from small to very large projects with speed and efficiency
+Homepage: http://git-scm.com/
+
+Package: termux-api
+Status: install ok installed
+Installed-Size: 132
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 0.20
+Description: Termux API commands
+Homepage: http://termux.com/add-ons/api/
+
+Package: python
+Status: install ok installed
+Installed-Size: 21604
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 3.5.2-5
+Depends: libandroid-support, ncurses, readline, libffi, openssl, libutil, libbz2, libsqlite, gdbm, ncurses-ui-libs, libcrypt, liblzma
+Description: Python 3 programming language intended to enable clear programs
+Homepage: http://python.org/
+
+Package: readline
+Status: install ok installed
+Installed-Size: 256
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: arm
+Version: 7.0.0
+Depends: libandroid-support, ncurses
+Description: Library providing a set of functions for use by applications that allow users to edit command lines as they are typed in
+Homepage: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+
+Package: termux-tools
+Status: install ok installed
+Installed-Size: 92
+Maintainer: Fredrik Fornwall <fredrik@fornwall.net>
+Architecture: all
+Version: 0.29
+Description: Basic system tools for Termux
+Homepage: https://termux.com/
+

@@ -1,0 +1,7 @@
+mkdir -p $HOME/.ssh
+
+for a in rsa dsa ecdsa ed25519; do
+    KEYFILE=/data/data/com.termux/files/usr/etc/ssh/ssh_host_${a}_key
+    test ! -f $KEYFILE && ssh-keygen -N '' -t $a -f $KEYFILE
+done
+exit 0

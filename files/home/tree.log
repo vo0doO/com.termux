@@ -1,0 +1,12 @@
+│   │   │   └── python3.5 -> /data/data/com.termux/files/usr/bin/python3.5
+│   │   └── python3.5 -> /data/data/com.termux/files/usr/bin/python3.5
+│   │   └── python3.5 -> /data/data/com.termux/files/usr/bin/python3.5
+│   │   └── python3.5 -> /data/data/com.termux/files/usr/bin/python3.5
+│   │   └── python3.5 -> /data/data/com.termux/files/usr/bin/python3.5
+│   ├── dcim -> /storage/emulated/0/DCIM
+│   ├── downloads -> /storage/emulated/0/Download
+│   ├── external -> /storage/extSdCard/Android/data/com.termux/files
+│   ├── movies -> /storage/emulated/0/Movies
+│   ├── music -> /storage/emulated/0/Music
+│   ├── pictures -> /storage/emulated/0/Pictures
+│   └── shared -> /storage/emulated/0

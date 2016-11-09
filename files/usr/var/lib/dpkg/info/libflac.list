@@ -1,0 +1,13 @@
+/.
+/data
+/data/data
+/data/data/com.termux
+/data/data/com.termux/files
+/data/data/com.termux/files/usr
+/data/data/com.termux/files/usr/lib
+/data/data/com.termux/files/usr/lib/libFLAC++.so.6.3.0
+/data/data/com.termux/files/usr/lib/libFLAC.so.8.3.0
+/data/data/com.termux/files/usr/lib/libFLAC++.so.6
+/data/data/com.termux/files/usr/lib/libFLAC++.so
+/data/data/com.termux/files/usr/lib/libFLAC.so.8
+/data/data/com.termux/files/usr/lib/libFLAC.so

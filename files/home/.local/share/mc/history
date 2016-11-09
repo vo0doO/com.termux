@@ -1,0 +1,68 @@
+[input-def]
+0=*
+
+[inpmc.fm.mkdir]
+0=Python project
+
+[input2]
+0=/data/data/com.termux/files/home/.vim/
+1=/data/data/com.termux/files/home/
+
+[input-ftp-proxy]
+0=gate
+
+[input-timeout]
+0=900
+
+[input-passwd]
+0=anonymous@
+
+[input-timo-vfs]
+0=60
+
+[cmdline]
+0=cd sdcard0
+1=cd appproject
+2=cd AppPrpjects
+3=cd appprojects
+4='
+5=:C-x
+6=C-x
+7=1M1M1m
+8=5M5M5M5M5M5M5M5m5M5M5M5M5M5M5M5M5M5M5M5M4M4M4M4M4M4M4M4m4M4M4M4M4M4M4M4M4M4M4M4M4m5M5M5M5M5M5M5M5m5M5M5M5M4M4M4M4M4M4M4M4m
+9=e= $PWD
+10=
+
+[Dir Hist New Right Panel]
+0=/data/data/com.termux/files/usr/bin
+1=/data/data/com.termux/files/home
+2=/
+
+[Dir Hist New Left Panel]
+0=/d
+1=/sdcard/Android/data
+2=/sdcard/Android
+3=/sdcard
+4=/sdcard/Download
+5=/data/data
+6=/data
+7=/.system
+8=/storage/sdcard0/appprojects
+9=/data/data/com.termux/files/home/dotfiles/vim/extern-cfg
+10=/data/data/com.termux/files/home/dotfiles/vim
+11=/data/data/com.termux/files/home/dotfiles
+12=/data/data/com.termux/files/home/dotfiles/bash
+13=/data/data/com.termux
+14=/data/data/com.termux/shared_prefs
+15=/data/data/com.termux/files/home
+16=/data/data/com.termux/files
+17=/storage/emulated
+18=/storage/emulated/0/Documents
+19=/storage/emulated/0/AppProjects/kupcaHoBdotcom
+20=/storage/emulated/0/Android
+21=/storage/emulated/0/AppProjects
+22=/storage/emulated/0
+23=/
+24=/storage
+25=/storage/sdcard0
+26=/storage/sdcard0/AppProjects

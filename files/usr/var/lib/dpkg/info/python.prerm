@@ -1,0 +1,6 @@
+if [ $1 != "remove" ]; then exit 0; fi
+pip freeze 2> /dev/null | xargs pip uninstall -y > /dev/null 2> /dev/null
+find /data/data/com.termux/files/usr/lib/python3.5 -depth -name __pycache__ -exec rm -rf {} \;
+rm -Rf /data/data/com.termux/files/usr/lib/python3.5/site-packages/*
+rm -f /data/data/com.termux/files/usr/bin/pip /data/data/com.termux/files/usr/bin/pip3*
+exit 0

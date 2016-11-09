@@ -1,0 +1,10 @@
+/.
+/data
+/data/data
+/data/data/com.termux
+/data/data/com.termux/files
+/data/data/com.termux/files/usr
+/data/data/com.termux/files/usr/lib
+/data/data/com.termux/files/usr/lib/libldns.so.1.6.17
+/data/data/com.termux/files/usr/lib/libldns.so.1
+/data/data/com.termux/files/usr/lib/libldns.so

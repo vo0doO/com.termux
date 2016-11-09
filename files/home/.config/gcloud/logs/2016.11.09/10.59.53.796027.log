@@ -1,0 +1,294 @@
+2016-11-09 11:00:04,302 DEBUG    root            Metrics collector initialized...
+2016-11-09 11:00:04,347 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2016-11-09 11:00:04,378 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'update']
+2016-11-09 11:00:04,394 DEBUG    root            Running gcloud.components.update with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.components.update', usage=None, description='Ensure that the latest version of all installed components is installed on the\nlocal workstation.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, allow_no_backup=True, architecture_override=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5a7bdf0>, command_path=['gcloud', 'components', 'update'], component_ids=[u'core', u'bq', u'gcloud', u'gsutil'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, operating_system_override=None, project=None, quiet=True, sdk_root_override=None, snapshot_url_override=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2016-11-09 11:00:05,576 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,579 INFO     ___FILE_ONLY___ 
+Your current Cloud SDK version is: 133.0.0
+
+2016-11-09 11:00:05,580 INFO     ___FILE_ONLY___ Installing components from version: 133.0.0
+
+2016-11-09 11:00:05,581 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,640 INFO     ___FILE_ONLY___ ┌────────────────────────────────────────────────────────────────────────────┐
+2016-11-09 11:00:05,641 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,642 INFO     ___FILE_ONLY___ │                    These components will be installed.                     │
+2016-11-09 11:00:05,643 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,644 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┬────────────┬─────────┤
+2016-11-09 11:00:05,645 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,646 INFO     ___FILE_ONLY___ │                         Name                        │  Version   │   Size  │
+2016-11-09 11:00:05,646 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,647 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┼────────────┼─────────┤
+2016-11-09 11:00:05,648 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,649 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,651 INFO     ___FILE_ONLY___ BigQuery Command Line Tool                         
+2016-11-09 11:00:05,652 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,653 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,655 INFO     ___FILE_ONLY___     2.0.24
+2016-11-09 11:00:05,656 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,656 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,657 INFO     ___FILE_ONLY___ < 1 MiB
+2016-11-09 11:00:05,657 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,658 INFO     ___FILE_ONLY___ │
+2016-11-09 11:00:05,658 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,659 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,660 INFO     ___FILE_ONLY___ BigQuery Command Line Tool (Platform Specific)     
+2016-11-09 11:00:05,661 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,661 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,662 INFO     ___FILE_ONLY___     2.0.24
+2016-11-09 11:00:05,662 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,663 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,664 INFO     ___FILE_ONLY___ < 1 MiB
+2016-11-09 11:00:05,664 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,665 INFO     ___FILE_ONLY___ │
+2016-11-09 11:00:05,665 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,666 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,667 INFO     ___FILE_ONLY___ Cloud SDK Core Libraries (Platform Specific)       
+2016-11-09 11:00:05,668 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,668 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,669 INFO     ___FILE_ONLY___ 2016.03.28
+2016-11-09 11:00:05,670 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,670 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,671 INFO     ___FILE_ONLY___ < 1 MiB
+2016-11-09 11:00:05,671 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,672 INFO     ___FILE_ONLY___ │
+2016-11-09 11:00:05,672 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,673 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,674 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool                    
+2016-11-09 11:00:05,674 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,675 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,675 INFO     ___FILE_ONLY___       4.22
+2016-11-09 11:00:05,675 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,676 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,676 INFO     ___FILE_ONLY___ 2.8 MiB
+2016-11-09 11:00:05,677 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,677 INFO     ___FILE_ONLY___ │
+2016-11-09 11:00:05,677 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,678 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,679 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool (Platform Specific)
+2016-11-09 11:00:05,679 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,680 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,680 INFO     ___FILE_ONLY___       4.18
+2016-11-09 11:00:05,680 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,681 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,681 INFO     ___FILE_ONLY___ < 1 MiB
+2016-11-09 11:00:05,682 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,682 INFO     ___FILE_ONLY___ │
+2016-11-09 11:00:05,682 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,683 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,684 INFO     ___FILE_ONLY___ Default set of gcloud commands                     
+2016-11-09 11:00:05,684 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,684 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,685 INFO     ___FILE_ONLY___           
+2016-11-09 11:00:05,685 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,686 INFO     ___FILE_ONLY___ │ 
+2016-11-09 11:00:05,686 INFO     ___FILE_ONLY___        
+2016-11-09 11:00:05,686 INFO     ___FILE_ONLY___  
+2016-11-09 11:00:05,687 INFO     ___FILE_ONLY___ │
+2016-11-09 11:00:05,687 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,688 INFO     ___FILE_ONLY___ └─────────────────────────────────────────────────────┴────────────┴─────────┘
+2016-11-09 11:00:05,688 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:05,688 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:06,289 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2016-11-09 11:00:06,295 INFO     ___FILE_ONLY___ Performing in place update...
+
+
+2016-11-09 11:00:06,298 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2016-11-09 11:00:06,299 INFO     ___FILE_ONLY___ ╠═ Installing: BigQuery Command Line Tool                   ═╣
+
+2016-11-09 11:00:06,300 INFO     ___FILE_ONLY___ ╚
+2016-11-09 11:00:06,791 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:06,824 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:06,850 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:06,887 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:06,899 INFO     ___FILE_ONLY___ ══
+2016-11-09 11:00:06,920 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:06,950 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:06,975 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:06,991 INFO     ___FILE_ONLY___ ══
+2016-11-09 11:00:07,024 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,049 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,065 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,087 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,115 INFO     ___FILE_ONLY___ ══
+2016-11-09 11:00:07,139 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,148 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,182 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,207 INFO     ___FILE_ONLY___ ══
+2016-11-09 11:00:07,220 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,238 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,269 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,290 INFO     ___FILE_ONLY___ ══
+2016-11-09 11:00:07,296 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,315 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,330 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,478 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,489 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,501 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,507 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,509 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,514 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,519 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,525 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,527 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,530 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,533 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,542 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,546 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,551 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,556 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,561 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,570 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,576 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,579 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,582 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,587 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,589 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,593 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,596 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,598 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,604 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,608 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,612 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,617 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,621 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:07,621 INFO     ___FILE_ONLY___ ╝
+2016-11-09 11:00:07,680 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2016-11-09 11:00:07,681 INFO     ___FILE_ONLY___ ╠═ Installing: BigQuery Command Line Tool (Platform Spec... ═╣
+
+2016-11-09 11:00:07,681 INFO     ___FILE_ONLY___ ╚
+2016-11-09 11:00:08,066 INFO     ___FILE_ONLY___ ══════════════════════════════
+2016-11-09 11:00:08,079 INFO     ___FILE_ONLY___ ═══════════════
+2016-11-09 11:00:08,082 INFO     ___FILE_ONLY___ ═══════════════
+2016-11-09 11:00:08,082 INFO     ___FILE_ONLY___ ╝
+2016-11-09 11:00:08,159 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2016-11-09 11:00:08,160 INFO     ___FILE_ONLY___ ╠═ Installing: Cloud SDK Core Libraries (Platform Specific) ═╣
+
+2016-11-09 11:00:08,160 INFO     ___FILE_ONLY___ ╚
+2016-11-09 11:00:08,599 INFO     ___FILE_ONLY___ ══════════════════════════════
+2016-11-09 11:00:08,609 INFO     ___FILE_ONLY___ ══════════
+2016-11-09 11:00:08,613 INFO     ___FILE_ONLY___ ═════════
+2016-11-09 11:00:08,615 INFO     ___FILE_ONLY___ ═══════════
+2016-11-09 11:00:08,615 INFO     ___FILE_ONLY___ ╝
+2016-11-09 11:00:08,733 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2016-11-09 11:00:08,734 INFO     ___FILE_ONLY___ ╠═ Installing: Cloud Storage Command Line Tool              ═╣
+
+2016-11-09 11:00:08,735 INFO     ___FILE_ONLY___ ╚
+2016-11-09 11:00:09,376 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:09,600 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:09,774 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:10,079 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:10,311 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:10,504 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:10,739 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:11,002 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:11,191 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:11,355 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:11,519 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:11,646 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:11,772 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:11,890 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:12,026 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:12,195 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:12,361 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:12,519 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:12,656 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:12,812 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:12,930 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:13,058 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:13,156 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:13,296 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:13,409 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:13,531 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:13,668 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:13,845 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:14,044 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:14,166 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,270 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,335 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,394 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,438 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,478 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,667 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,718 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,769 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,809 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,854 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,912 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:15,962 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:16,020 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:16,061 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:16,101 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:16,432 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:16,482 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:16,521 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:16,555 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:16,590 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:16,629 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:17,061 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:17,106 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:17,148 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:17,178 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:17,218 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:17,268 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:17,315 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:18,166 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:18,207 INFO     ___FILE_ONLY___ ═
+2016-11-09 11:00:18,208 INFO     ___FILE_ONLY___ ╝
+2016-11-09 11:00:18,281 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2016-11-09 11:00:18,281 INFO     ___FILE_ONLY___ ╠═ Installing: Cloud Storage Command Line Tool (Platform... ═╣
+
+2016-11-09 11:00:18,282 INFO     ___FILE_ONLY___ ╚
+2016-11-09 11:00:18,693 INFO     ___FILE_ONLY___ ══════════════════════════════
+2016-11-09 11:00:18,699 INFO     ___FILE_ONLY___ ═══════════════
+2016-11-09 11:00:18,705 INFO     ___FILE_ONLY___ ═══════════════
+2016-11-09 11:00:18,706 INFO     ___FILE_ONLY___ ╝
+2016-11-09 11:00:18,804 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2016-11-09 11:00:18,804 INFO     ___FILE_ONLY___ ╠═ Installing: Default set of gcloud commands               ═╣
+
+2016-11-09 11:00:18,805 INFO     ___FILE_ONLY___ ╚
+2016-11-09 11:00:18,884 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2016-11-09 11:00:18,885 INFO     ___FILE_ONLY___ ╝
+
+2016-11-09 11:00:19,054 DEBUG    root            Updating notification cache...
+2016-11-09 11:00:19,056 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:00:19,057 INFO     ___FILE_ONLY___ Performing post processing steps...
+2016-11-09 11:00:19,059 DEBUG    root            Executing command: ['/data/data/com.termux/files/usr/bin/python2.7', u'/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/gcloud.py', u'components', u'post-process']
+2016-11-09 11:13:14,395 DEBUG    ___FILE_ONLY___ Compiling platform/gsutil/third_party/httplib2/python3/httplib2/__init__.py ...
+  File "platform/gsutil/third_party/httplib2/python3/httplib2/__init__.py", line 347
+    print('%s:' % h, end=' ', file=self._fp)
+                        ^
+SyntaxError: invalid syntax
+
+
+2016-11-09 11:13:14,396 DEBUG    ___FILE_ONLY___ 
+2016-11-09 11:13:14,403 INFO     ___FILE_ONLY___ 
+Update done!
+
+
+2016-11-09 11:13:14,414 INFO     root            Display format "none".
+2016-11-09 11:18:33,557 DEBUG    root            Metrics reporting process started...

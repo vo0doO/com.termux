@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="fullscreen" value="false" />
+    <string name="App Restrictions">AAAAAA==
+    </string>
+    <string name="fontsize">38</string>
+    <string name="current_session">fb084752-4752-407e-ad8b-b80b091f0574</string>
+    <boolean name="intro_dialog" value="false" />
+</map>

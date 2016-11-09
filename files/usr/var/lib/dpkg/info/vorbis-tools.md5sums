@@ -1,0 +1,10 @@
+d783c9b7e9a59ca35b3ad57001f21636  data/data/com.termux/files/usr/share/man/man1/ogginfo.1
+4933c15266f23e264685ecb88fdd2120  data/data/com.termux/files/usr/share/man/man1/oggdec.1
+cdd872e16d4b699716e91ade66a36f84  data/data/com.termux/files/usr/share/man/man1/vorbiscomment.1
+be9c7be2553bf9f476139058443aef41  data/data/com.termux/files/usr/share/man/man1/oggenc.1
+2e97553af580abd1116f10e25ac7fa9e  data/data/com.termux/files/usr/share/man/man1/vcut.1
+80099eb9556f9f2e84effdd16cd40b3f  data/data/com.termux/files/usr/bin/vorbiscomment
+a17cf45293b46902826b86e3a55ede40  data/data/com.termux/files/usr/bin/oggdec
+fa0addd4fefd5c082818ef9815e2b26b  data/data/com.termux/files/usr/bin/ogginfo
+5ad168dd02b16cf4ea702d3dc10964fd  data/data/com.termux/files/usr/bin/oggenc
+3c560671d162fa84396c443c0d6bcd36  data/data/com.termux/files/usr/bin/vcut

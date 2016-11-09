@@ -1,0 +1,172 @@
+
+Start-Date: 2016-10-17  16:29:13
+Commandline: apt install termux-api
+Install: termux-api:arm (0.20)
+End-Date: 2016-10-17  16:29:13
+
+Start-Date: 2016-10-17  16:49:53
+Commandline: apt install vim
+Install: vim-runtime:arm (8.0.0031, automatic), vim:arm (8.0.0031)
+End-Date: 2016-10-17  16:49:57
+
+Start-Date: 2016-10-17  16:55:06
+Commandline: apt remove vim-runtime
+Remove: vim-runtime:arm (8.0.0031), vim:arm (8.0.0031)
+End-Date: 2016-10-17  16:55:08
+
+Start-Date: 2016-10-17  16:55:42
+Commandline: apt install vim-runtime
+Install: vim-runtime:arm (8.0.0031)
+End-Date: 2016-10-17  16:55:46
+
+Start-Date: 2016-10-17  16:57:03
+Commandline: apt install vim-python
+Install: libbz2:arm (1.0.6, automatic), openssl:arm (1.0.2j, automatic), libcrypt:arm (0.2, automatic), libsqlite:arm (3.15.0, automatic), libffi:arm (3.2.1-2, automatic), ncurses-ui-libs:arm (6.0.20160924, automatic), gdbm:arm (1.12, automatic), python:arm (3.5.2-5, automatic), libutil:arm (0.2, automatic), ca-certificates:arm (20160907, automatic), vim-python:arm (8.0.0031)
+End-Date: 2016-10-17  16:57:19
+
+Start-Date: 2016-10-17  17:04:31
+Commandline: apt install python2
+Install: python2:arm (2.7.12-3)
+End-Date: 2016-10-17  17:04:43
+
+Start-Date: 2016-10-17  17:05:33
+Commandline: apt install vim
+Install: vim:arm (8.0.0031)
+Remove: vim-python:arm (8.0.0031)
+End-Date: 2016-10-17  17:05:33
+
+Start-Date: 2016-10-17  17:05:53
+Commandline: apt install vim-python
+Install: vim-python:arm (8.0.0031)
+Remove: vim:arm (8.0.0031)
+End-Date: 2016-10-17  17:05:54
+
+Start-Date: 2016-10-17  17:09:37
+Commandline: apt install git
+Install: libcurl:arm (7.50.3, automatic), git:arm (2.10.1), less:arm (481, automatic), libnghttp2:arm (1.15.0, automatic)
+End-Date: 2016-10-17  17:09:41
+
+Start-Date: 2016-10-20  20:45:21
+Commandline: apt-get install netcat
+Install: netcat:arm (7.12), libpcap:arm (1.7.4, automatic)
+End-Date: 2016-10-20  20:45:21
+
+Start-Date: 2016-10-20  20:48:19
+Commandline: apt install xz-utils
+Install: xz-utils:arm (5.2.2)
+End-Date: 2016-10-20  20:48:19
+
+Start-Date: 2016-10-20  20:50:18
+Commandline: apt install termux-elf-cleaner
+Install: termux-elf-cleaner:arm (1.1)
+End-Date: 2016-10-20  20:50:18
+
+Start-Date: 2016-10-20  20:56:08
+Commandline: apt install man
+Install: man:arm (1.13.4-3), libandroid-glob:arm (0.3, automatic)
+End-Date: 2016-10-20  20:56:10
+
+Start-Date: 2016-10-20  22:08:04
+Commandline: apt install coreutils
+Install: coreutils:arm (8.25-6)
+End-Date: 2016-10-20  22:08:05
+
+Start-Date: 2016-10-20  22:08:48
+Commandline: apt install sharutils
+Install: sharutils:arm (4.15.2)
+End-Date: 2016-10-20  22:08:49
+
+Start-Date: 2016-10-20  23:01:01
+Commandline: apt install nmap
+Install: resolv-conf:arm (1.0, automatic), nmap:arm (7.12), pcre:arm (8.39, automatic)
+End-Date: 2016-10-20  23:01:05
+
+Start-Date: 2016-10-20  23:31:50
+Commandline: apt install texinfo
+Install: texinfo:arm (6.3), perl:arm (5.24.0, automatic)
+End-Date: 2016-10-20  23:32:02
+
+Start-Date: 2016-10-20  23:35:19
+Commandline: apt install vorbis-tools
+Install: libvorbis:arm (1.3.5, automatic), vorbis-tools:arm (1.4.0-1), libogg:arm (1.3.2, automatic), libflac:arm (1.3.1, automatic)
+End-Date: 2016-10-20  23:35:20
+
+Start-Date: 2016-10-21  10:01:49
+Commandline: apt install mc
+Install: mc:arm (4.8.18), glib:arm (2.50.1-1, automatic)
+End-Date: 2016-10-21  10:01:53
+
+Start-Date: 2016-11-04  07:16:08
+Commandline: apt install openssh
+Install: openssh:arm (7.3p1), ldns:arm (1.6.17, automatic)
+End-Date: 2016-11-04  07:16:15
+
+Start-Date: 2016-11-04  07:22:03
+Commandline: apt install parallel
+Install: parallel:arm (20160922)
+End-Date: 2016-11-04  07:22:04
+
+Start-Date: 2016-11-04  07:50:23
+Commandline: apt install p7zip
+Install: p7zip:arm (16.02)
+End-Date: 2016-11-04  07:50:24
+
+Start-Date: 2016-11-04  08:06:18
+Commandline: apt install tree
+Install: tree:arm (1.7.0-2)
+End-Date: 2016-11-04  08:06:19
+
+Start-Date: 2016-11-04  18:59:48
+Commandline: apt install procps
+Install: procps:arm (3.3.12)
+End-Date: 2016-11-04  18:59:51
+
+Start-Date: 2016-11-06  03:41:09
+Commandline: apt-get full-upgrade
+Upgrade: libcurl:arm (7.50.3, 7.51.0), git:arm (2.10.1, 2.10.2), nmap:arm (7.12, 7.31), vim-runtime:arm (8.0.0031, 8.0.0055), netcat:arm (7.12, 7.31), vim-python:arm (8.0.0031, 8.0.0055), libnghttp2:arm (1.15.0, 1.16.0)
+End-Date: 2016-11-06  03:41:26
+
+Start-Date: 2016-11-06  03:50:09
+Commandline: apt install nodejs
+Install: nodejs:arm (6.9.1), c-ares:arm (1.12.0, automatic)
+End-Date: 2016-11-06  03:50:17
+
+Start-Date: 2016-11-07  18:03:32
+Commandline: apt install curl
+Install: curl:arm (7.51.0)
+End-Date: 2016-11-07  18:03:34
+
+Start-Date: 2016-11-08  01:05:42
+Commandline: apt-get remove python
+Remove: python:arm (3.5.2-5), vim-python:arm (8.0.0055)
+End-Date: 2016-11-08  01:05:53
+
+Start-Date: 2016-11-08  01:06:12
+Commandline: apt install python
+Install: python:arm (3.5.2-5)
+End-Date: 2016-11-08  01:06:29
+
+Start-Date: 2016-11-09  10:18:05
+Commandline: apt-get install termux-create-package
+Install: termux-create-package:arm (0.1)
+End-Date: 2016-11-09  10:18:06
+
+Start-Date: 2016-11-09  10:34:14
+Commandline: apt install vim-python
+Install: vim-python:arm (8.0.0055)
+End-Date: 2016-11-09  10:34:16
+
+Start-Date: 2016-11-09  11:32:21
+Commandline: apt install tmux
+Install: libevent:arm (2.0.22-1, automatic), tmux:arm (2.3)
+End-Date: 2016-11-09  11:32:23
+
+Start-Date: 2016-11-09  15:21:53
+Commandline: apt install debianutils
+Install: debianutils:arm (4.8)
+End-Date: 2016-11-09  15:21:55
+
+Start-Date: 2016-11-09  15:22:47
+Commandline: apt install proot
+Install: libtalloc:arm (2.1.8, automatic), proot:arm (5.1.101)
+End-Date: 2016-11-09  15:22:48

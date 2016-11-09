@@ -1,0 +1,11 @@
+2016-11-09 11:50:17,791 DEBUG    root            Metrics collector initialized...
+2016-11-09 11:50:17,801 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2016-11-09 11:50:17,811 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'update']
+2016-11-09 11:50:17,823 DEBUG    root            Running gcloud.components.update with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.components.update', usage=None, description='Ensure that the latest version of all installed components is installed on the\nlocal workstation.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, allow_no_backup=True, architecture_override=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5b9e6d0>, command_path=['gcloud', 'components', 'update'], component_ids=[u'core', u'bq', u'gcloud', u'gsutil'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, operating_system_override=None, project=None, quiet=True, sdk_root_override=None, snapshot_url_override=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2016-11-09 11:50:19,527 INFO     ___FILE_ONLY___ 
+
+2016-11-09 11:50:19,528 INFO     ___FILE_ONLY___ All components are up to date.
+
+2016-11-09 11:50:19,530 DEBUG    root            Updating notification cache...
+2016-11-09 11:50:19,533 INFO     root            Display format "none".
+2016-11-09 12:47:25,330 DEBUG    root            Metrics reporting process started...

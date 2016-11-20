@@ -1,0 +1,395 @@
+2016-11-16 13:17:45,113 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2016-11-16 13:17:45,118 DEBUG    root            Running gcloud.init with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.init', usage=None, description='Initialize or reinitialize gcloud.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5c31530>, command_path=['gcloud', 'init'], configuration=None, console_only=False, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, obsolete_project_arg=None, project=None, quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2016-11-16 13:17:45,118 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2016-11-16 13:17:45,123 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2016-11-16 13:17:45,123 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2016-11-16 13:17:45,124 INFO     ___FILE_ONLY___ Checking network connection...
+2016-11-16 13:17:49,977 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2016-11-16 13:17:49,980 INFO     ___FILE_ONLY___ Network diagnostic (1/1 checks) passed.
+
+
+2016-11-16 13:17:49,992 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2016-11-16 13:17:50,024 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'list']
+2016-11-16 13:17:50,049 INFO     root            Executing: [gcloud auth list]
+2016-11-16 13:17:50,057 DEBUG    root            Running gcloud.auth.list with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.auth.list', usage=None, description='Lists accounts whose credentials have been obtained using `gcloud init`,\n`gcloud auth login` and `gcloud auth activate-service-account`, and shows\nwhich account is active. The active account is used by gcloud and other Cloud\nSDK tools to access Google Cloud Platform.\n\n## EXAMPLES\n\nTo list the active account name:\n\n  $ gcloud auth list --filter=status:ACTIVE --format="value(account)"\n\nTo list the inactive account names with prefix `test`:\n\n  $ gcloud auth list --filter="-status:ACTIVE account:test*" --format="value(account)"', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5bb6330>, command_path=['gcloud', 'auth', 'list'], configuration=None, credential_file_override=None, document=None, filter=None, filter_account=None, flatten=None, format=None, h=None, help=None, http_timeout=None, limit=None, log_http=None, page_size=None, project=None, quiet=None, sort_by=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', verbosity='none', version=None).
+2016-11-16 13:17:50,060 DEBUG    oauth2client.multistore_file Initializing empty multistore file
+2016-11-16 13:17:50,063 INFO     root            Display disabled.
+2016-11-16 13:17:50,076 DEBUG    root            Checking for updates...
+2016-11-16 13:17:50,927 DEBUG    root            Updating notification cache...
+2016-11-16 13:17:50,928 DEBUG    root            Activating notification: [default]
+2016-11-16 13:17:50,929 INFO     ___FILE_ONLY___ 
+
+Updates are available for some Cloud SDK components.  To install them,
+please run:
+  $ gcloud components update
+
+
+2016-11-16 13:18:04,201 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'login']
+2016-11-16 13:18:04,206 INFO     root            Executing: [gcloud auth login --force --brief]
+2016-11-16 13:18:04,212 DEBUG    root            Running gcloud.auth.login with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.auth.login', usage=None, description='Obtains access credentials for your user account via a web-based authorization\nflow. When this command completes successfully, it sets the active account\nin the current configuration to the account specified. If no configuration\nexists, it creates a configuration named default.\n\nIf valid credentials for an account are already available from a prior\nauthorization, the account is set to active without rerunning the flow.\n\nUse `gcloud auth list` to view credentialed accounts.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, activate=True, authority_selector=None, authorization_token_file=None, brief=True, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5c313d0>, command_path=['gcloud', 'auth', 'login'], configuration=None, credential_file_override=None, document=None, enable_gdrive_access=False, flatten=None, force=True, format=None, h=None, help=None, http_timeout=None, launch_browser=True, log_http=None, project=None, quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2016-11-16 13:18:04,218 INFO     ___FILE_ONLY___ Go to the following link in your browser:
+
+    https://accounts.google.com/o/oauth2/auth?redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&prompt=select_account&response_type=code&client_id=32555940559.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute&access_type=offline
+
+
+
+2016-11-16 13:19:19,573 INFO     oauth2client.client Successfully retrieved access token
+2016-11-16 13:19:19,592 DEBUG    oauth2client.multistore_file Initializing empty multistore file
+2016-11-16 13:19:19,615 INFO     ___FILE_ONLY___ You are logged in as: [danilakirsanovspb@gmail.com].
+
+
+2016-11-16 13:19:21,306 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2016-11-16 13:19:21,323 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2016-11-16 13:19:21,329 INFO     root            Executing: [gcloud config set project projectvo0do0s]
+2016-11-16 13:19:21,336 DEBUG    root            Running gcloud.config.set with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.set', usage=None, description='By default, sets the property in your active configuration only. Use the\n`--installation` flag to set the property across all configurations. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo set the project property in the core section, run:\n\n  $ {command} project myProject\n\nTo set the zone property in the compute section, run:\n\n  $ {command} compute/zone zone3', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5c364b0>, command_path=['gcloud', 'config', 'set'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, installation=False, log_http=None, project=None, property='project', quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', value=u'projectvo0do0s', verbosity='none', version=None).
+2016-11-16 13:19:21,339 INFO     ___FILE_ONLY___ Updated property [core/project].
+
+2016-11-16 13:19:21,339 INFO     root            Display disabled.
+2016-11-16 13:19:21,346 INFO     ___FILE_ONLY___ Your current project has been set to: [projectvo0do0s].
+
+
+2016-11-16 13:19:21,356 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2016-11-16 13:19:21,372 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project_info']
+2016-11-16 13:19:21,549 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project-info', 'describe']
+2016-11-16 13:19:21,552 INFO     root            Executing: [gcloud compute project-info describe]
+2016-11-16 13:19:21,554 DEBUG    root            Running gcloud.compute.project-info.describe with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.compute.project-info.describe', usage=None, description='Describe the Google Compute Engine project resource.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5b793d0>, command_path=['gcloud', 'compute', 'project-info', 'describe'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, project=None, quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', verbosity='none', version=None).
+2016-11-16 13:19:21,780 DEBUG    root            Starting batch request...
+2016-11-16 13:19:21,780 DEBUG    root            Adding request: (<googlecloudsdk.third_party.apis.compute.v1.compute_v1_client.ProjectsService object at 0xb5659090>, 'Get', <ComputeProjectsGetRequest
+ project: 'projectvo0do0s'>)
+2016-11-16 13:19:21,782 DEBUG    root            Making batch request...
+2016-11-16 13:19:22,855 DEBUG    root            Batch request done; responses [<Project
+ commonInstanceMetadata: <Metadata
+ fingerprint: '\xf2\x80\xc3!\xab\xe2\xd1N'
+ items: [<ItemsValueListEntry
+ key: u'sshKeys'
+ value: u'danilakirsanovspb:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAHlES0fIyPUAR9BfMN/J6jvh2N9HdhoaahDdy/aqFOH+XTK6NS+jcWUWuGFaIsvFUmpDU7VIW6lyxk1ES1bVMGAi4C06PiP2DEHd9EE7QuqySmQnX10jGBKVTdXiN6nV8rcgi0+Ng30xKBYouaX7QOYMYKoJ5DyRFlMoOre/JxK/5hiUjbyc5cIP345LwPkjl/yfVlRaDDtVXQgM9Vv6bYjw68BXeWYLIwfZiwjEc5PtKf5baIiUSMSx/da5LKO7oQ4jEC0AVGrFxWCczT0BYp7nDCkOm/EC3SxOycEcG5m4BkqrDaJhLBodpJqWryHhTGhRxj2VywCIxf74XOb+Kbc= google-ssh {"userName":"danilakirsanovspb@gmail.com","expireOn":"2016-11-09T15:21:17+0000"}\ndanilakirsanovspb:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCGXGtm7Dk1BaPznteLcjVAcPE8b2Ql0H4intuMRDGDPBo58OWUKxAPdqJkJFj4r0LiVLTceKptE8YGXMEKOrp4= google-ssh {"userName":"danilakirsanovspb@gmail.com","expireOn":"2016-11-09T15:21:16+0000"}\nvo0do0:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCluyBjO/++88p9aaD2YG186BpDzQasY6WFa5NBtfda+Jwnd+6+bcfjJ9DDLNPNfLyqzZXgCGn1+GfVjgV+PDQOkrOOzmDCCOqOZmNy8khFEYz3vNpKUVzyNGfIa2uOqee1abYnYT6yeovKZPVSe9RDmMdDV88Tbq7O1zqOfvGz/lB7V63FxmYYf6PN18m20B+pNk56S4IjOcseByf89t80Df+2E0twnX4Ww7TOF8X79TmlAkqHFYxsC0CYVekH6sGoiKV7uDX54rkyS7gqchUNKOQalwS4/Vk0JWiHFzxY1MTWT2Tkx43eULGPKiqlHeD2EgXcpoKjnNevhb7Fsqx1 DESKTOP-P8LI18N\\vo0do0@DESKTOP-P8LI18N\ndanilakirsanovspb:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWgh4WgSYIANkpOFPRMuIyzGBYA5jC+fuFi1+gY6FShn0Wf7tY28tAsyf3LgwgLfUzJh2JPNhrrEM0LBX793Bij4PpSdUfT1iykdlFvFfZObxaOQgiLD04jdkFqWwIQrIEpFma24Km1zI0eL9Wn0V8r1iSM7fbla3O3H/gs1W/zTrz0kg3XXtIjJxZWSd1X8X0PeXIDf+mdS+Ek0iclheHf3HSNaaIQS/c2/pe0nx/gZHPSCOg9lI86aYtUillteIkCAIW35DTdz1+SXvh9dmcERzFu4ylciSI6DAEOm5mJf2QAAHdeK8MawJ0Ztf+H2dTXoBi3CUiR9OJkdlQ0Z1J danilakirsanovspb@cs-6684-devshell-vm-462af072-b738-4b21-ad90-ab012af0d614-2e\n'>]
+ kind: u'compute#metadata'>
+ creationTimestamp: u'2016-10-21T06:29:54.733-07:00'
+ defaultServiceAccount: u'959785874249-compute@developer.gserviceaccount.com'
+ enabledFeatures: []
+ id: 6561268897220634301L
+ kind: u'compute#project'
+ name: u'projectvo0do0s'
+ quotas: [<Quota
+ limit: 1000.0
+ metric: MetricValueValuesEnum(SNAPSHOTS, 20)
+ usage: 0.0>, <Quota
+ limit: 5.0
+ metric: MetricValueValuesEnum(NETWORKS, 14)
+ usage: 1.0>, <Quota
+ limit: 100.0
+ metric: MetricValueValuesEnum(FIREWALLS, 4)
+ usage: 6.0>, <Quota
+ limit: 100.0
+ metric: MetricValueValuesEnum(IMAGES, 7)
+ usage: 0.0>, <Quota
+ limit: 1.0
+ metric: MetricValueValuesEnum(STATIC_ADDRESSES, 23)
+ usage: 0.0>, <Quota
+ limit: 200.0
+ metric: MetricValueValuesEnum(ROUTES, 19)
+ usage: 7.0>, <Quota
+ limit: 15.0
+ metric: MetricValueValuesEnum(FORWARDING_RULES, 5)
+ usage: 0.0>, <Quota
+ limit: 50.0
+ metric: MetricValueValuesEnum(TARGET_POOLS, 28)
+ usage: 0.0>, <Quota
+ limit: 50.0
+ metric: MetricValueValuesEnum(HEALTH_CHECKS, 6)
+ usage: 0.0>, <Quota
+ limit: 23.0
+ metric: MetricValueValuesEnum(IN_USE_ADDRESSES, 12)
+ usage: 0.0>, <Quota
+ limit: 50.0
+ metric: MetricValueValuesEnum(TARGET_INSTANCES, 27)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(TARGET_HTTP_PROXIES, 26)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(URL_MAPS, 31)
+ usage: 0.0>, <Quota
+ limit: 5.0
+ metric: MetricValueValuesEnum(BACKEND_SERVICES, 1)
+ usage: 0.0>, <Quota
+ limit: 100.0
+ metric: MetricValueValuesEnum(INSTANCE_TEMPLATES, 11)
+ usage: 0.0>, <Quota
+ limit: 5.0
+ metric: MetricValueValuesEnum(TARGET_VPN_GATEWAYS, 30)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(VPN_TUNNELS, 32)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(ROUTERS, 18)
+ usage: 1.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(TARGET_SSL_PROXIES, 29)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(TARGET_HTTPS_PROXIES, 25)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(SSL_CERTIFICATES, 22)
+ usage: 0.0>, <Quota
+ limit: 100.0
+ metric: MetricValueValuesEnum(SUBNETWORKS, 24)
+ usage: 6.0>]
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s'>]
+2016-11-16 13:19:22,935 INFO     root            Display disabled.
+2016-11-16 13:19:34,685 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'zones']
+2016-11-16 13:19:34,692 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'zones', 'list']
+2016-11-16 13:19:34,698 INFO     root            Executing: [gcloud compute zones list]
+2016-11-16 13:19:34,705 DEBUG    root            Running gcloud.compute.zones.list with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.compute.zones.list', usage=None, description='List Google Compute Engine zones.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb512f330>, command_path=['gcloud', 'compute', 'zones', 'list'], configuration=None, credential_file_override=None, document=None, filter=None, flatten=None, format=None, h=None, help=None, http_timeout=None, limit=None, log_http=None, names=[], page_size=None, project=None, quiet=None, regexp=None, sort_by=None, trace_email=None, trace_log=None, trace_token=None, uri=False, user_output_enabled='false', verbosity='none', version=None).
+2016-11-16 13:19:34,705 INFO     root            Display disabled.
+2016-11-16 13:19:34,715 DEBUG    root            Starting batch request...
+2016-11-16 13:19:34,715 DEBUG    root            Adding request: (<googlecloudsdk.third_party.apis.compute.v1.compute_v1_client.ZonesService object at 0xb50c04d0>, 'List', <ComputeZonesListRequest
+ maxResults: 500
+ project: 'projectvo0do0s'>)
+2016-11-16 13:19:34,718 DEBUG    root            Making batch request...
+2016-11-16 13:19:35,463 DEBUG    root            Batch request done; responses [<ZoneList
+ id: u'projects/projectvo0do0s/zones'
+ items: [<Zone
+ creationTimestamp: u'2016-06-14T17:29:18.761-07:00'
+ description: u'asia-east1-a'
+ id: 2220
+ kind: u'compute#zone'
+ name: u'asia-east1-a'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/asia-east1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-east1-a'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2016-06-14T17:29:18.761-07:00'
+ description: u'asia-east1-b'
+ id: 2221
+ kind: u'compute#zone'
+ name: u'asia-east1-b'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/asia-east1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-east1-b'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2014-07-15T10:44:08.663-07:00'
+ description: u'asia-east1-c'
+ id: 2222
+ kind: u'compute#zone'
+ name: u'asia-east1-c'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/asia-east1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-east1-c'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2016-08-15T17:05:00.315-07:00'
+ description: u'asia-northeast1-b'
+ id: 2251
+ kind: u'compute#zone'
+ name: u'asia-northeast1-b'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/asia-northeast1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-northeast1-b'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2016-08-15T17:05:00.316-07:00'
+ description: u'asia-northeast1-c'
+ id: 2252
+ kind: u'compute#zone'
+ name: u'asia-northeast1-c'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/asia-northeast1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-northeast1-c'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2016-08-15T17:05:00.313-07:00'
+ description: u'asia-northeast1-a'
+ id: 2250
+ kind: u'compute#zone'
+ name: u'asia-northeast1-a'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/asia-northeast1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-northeast1-a'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2016-06-14T17:29:18.761-07:00'
+ description: u'europe-west1-b'
+ id: 2101
+ kind: u'compute#zone'
+ name: u'europe-west1-b'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/europe-west1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/europe-west1-b'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2014-09-02T15:52:35.238-07:00'
+ description: u'europe-west1-c'
+ id: 2103
+ kind: u'compute#zone'
+ name: u'europe-west1-c'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/europe-west1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/europe-west1-c'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2014-12-15T13:42:35.748-08:00'
+ description: u'europe-west1-d'
+ id: 2104
+ kind: u'compute#zone'
+ name: u'europe-west1-d'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/europe-west1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/europe-west1-d'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2016-06-14T17:29:18.761-07:00'
+ description: u'us-central1-a'
+ id: 2000
+ kind: u'compute#zone'
+ name: u'us-central1-a'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/us-central1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/us-central1-a'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2016-06-14T17:29:18.761-07:00'
+ description: u'us-central1-f'
+ id: 2004
+ kind: u'compute#zone'
+ name: u'us-central1-f'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/us-central1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/us-central1-f'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2014-10-29T11:20:06.229-07:00'
+ description: u'us-central1-c'
+ id: 2002
+ kind: u'compute#zone'
+ name: u'us-central1-c'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/us-central1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/us-central1-c'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2016-06-14T17:29:18.761-07:00'
+ description: u'us-central1-b'
+ id: 2001
+ kind: u'compute#zone'
+ name: u'us-central1-b'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/us-central1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/us-central1-b'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2015-09-03T15:15:02.330-07:00'
+ description: u'us-east1-d'
+ id: 2234
+ kind: u'compute#zone'
+ name: u'us-east1-d'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/us-east1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/us-east1-d'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2015-09-08T16:57:06.746-07:00'
+ description: u'us-east1-b'
+ id: 2231
+ kind: u'compute#zone'
+ name: u'us-east1-b'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/us-east1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/us-east1-b'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2015-09-08T10:59:59.040-07:00'
+ description: u'us-east1-c'
+ id: 2233
+ kind: u'compute#zone'
+ name: u'us-east1-c'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/us-east1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/us-east1-c'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2016-06-10T09:30:55.189-07:00'
+ description: u'us-west1-a'
+ id: 2210
+ kind: u'compute#zone'
+ name: u'us-west1-a'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/us-west1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/us-west1-a'
+ status: StatusValueValuesEnum(UP, 1)>, <Zone
+ creationTimestamp: u'2016-06-10T09:30:55.192-07:00'
+ description: u'us-west1-b'
+ id: 2211
+ kind: u'compute#zone'
+ name: u'us-west1-b'
+ region: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/us-west1'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/us-west1-b'
+ status: StatusValueValuesEnum(UP, 1)>]
+ kind: u'compute#zoneList'
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones'>]
+2016-11-16 13:20:04,036 INFO     root            Executing: [gcloud config set compute/zone asia-east1-a]
+2016-11-16 13:20:04,039 DEBUG    root            Running gcloud.config.set with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.set', usage=None, description='By default, sets the property in your active configuration only. Use the\n`--installation` flag to set the property across all configurations. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo set the project property in the core section, run:\n\n  $ {command} project myProject\n\nTo set the zone property in the compute section, run:\n\n  $ {command} compute/zone zone3', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5c364b0>, command_path=['gcloud', 'config', 'set'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, installation=False, log_http=None, project=None, property='compute/zone', quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', value=u'asia-east1-a', verbosity='none', version=None).
+2016-11-16 13:20:04,041 INFO     ___FILE_ONLY___ Updated property [compute/zone].
+
+2016-11-16 13:20:04,042 INFO     root            Display disabled.
+2016-11-16 13:20:04,058 INFO     ___FILE_ONLY___ Your project default Compute Engine zone has been set to [asia-east1-a].
+You can change it by running [gcloud config set compute/zone NAME].
+
+
+2016-11-16 13:20:04,065 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'regions']
+2016-11-16 13:20:04,071 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'regions', 'describe']
+2016-11-16 13:20:04,074 INFO     root            Executing: [gcloud compute regions describe asia-east1]
+2016-11-16 13:20:04,078 DEBUG    root            Running gcloud.compute.regions.describe with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.compute.regions.describe', usage=None, description='Describe a Google Compute Engine region.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb50da9f0>, command_path=['gcloud', 'compute', 'regions', 'describe'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, name=u'asia-east1', project=None, quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', verbosity='none', version=None).
+2016-11-16 13:20:04,096 DEBUG    root            Starting batch request...
+2016-11-16 13:20:04,097 DEBUG    root            Adding request: (<googlecloudsdk.third_party.apis.compute.v1.compute_v1_client.RegionsService object at 0xb50d8fd0>, 'Get', <ComputeRegionsGetRequest
+ project: 'projectvo0do0s'
+ region: u'asia-east1'>)
+2016-11-16 13:20:04,099 DEBUG    root            Making batch request...
+2016-11-16 13:20:04,932 DEBUG    root            Batch request done; responses [<Region
+ creationTimestamp: u'2016-06-14T17:29:18.761-07:00'
+ description: u'asia-east1'
+ id: 1220
+ kind: u'compute#region'
+ name: u'asia-east1'
+ quotas: [<Quota
+ limit: 8.0
+ metric: MetricValueValuesEnum(CPUS, 2)
+ usage: 1.0>, <Quota
+ limit: 2048.0
+ metric: MetricValueValuesEnum(DISKS_TOTAL_GB, 3)
+ usage: 10.0>, <Quota
+ limit: 1.0
+ metric: MetricValueValuesEnum(STATIC_ADDRESSES, 23)
+ usage: 1.0>, <Quota
+ limit: 23.0
+ metric: MetricValueValuesEnum(IN_USE_ADDRESSES, 12)
+ usage: 1.0>, <Quota
+ limit: 1024.0
+ metric: MetricValueValuesEnum(SSD_TOTAL_GB, 21)
+ usage: 100.0>, <Quota
+ limit: 1500.0
+ metric: MetricValueValuesEnum(LOCAL_SSD_TOTAL_GB, 13)
+ usage: 0.0>, <Quota
+ limit: 100.0
+ metric: MetricValueValuesEnum(INSTANCE_GROUPS, 9)
+ usage: 0.0>, <Quota
+ limit: 50.0
+ metric: MetricValueValuesEnum(INSTANCE_GROUP_MANAGERS, 10)
+ usage: 0.0>, <Quota
+ limit: 80.0
+ metric: MetricValueValuesEnum(INSTANCES, 8)
+ usage: 1.0>, <Quota
+ limit: 50.0
+ metric: MetricValueValuesEnum(AUTOSCALERS, 0)
+ usage: 0.0>, <Quota
+ limit: 20.0
+ metric: MetricValueValuesEnum(REGIONAL_AUTOSCALERS, 16)
+ usage: 0.0>, <Quota
+ limit: 20.0
+ metric: MetricValueValuesEnum(REGIONAL_INSTANCE_GROUP_MANAGERS, 17)
+ usage: 0.0>]
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/asia-east1'
+ status: StatusValueValuesEnum(UP, 1)
+ zones: [u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-east1-a', u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-east1-b', u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-east1-c']>]
+2016-11-16 13:20:04,953 INFO     root            Display disabled.
+2016-11-16 13:20:04,957 INFO     root            Executing: [gcloud config set compute/region asia-east1]
+2016-11-16 13:20:04,961 DEBUG    root            Running gcloud.config.set with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.set', usage=None, description='By default, sets the property in your active configuration only. Use the\n`--installation` flag to set the property across all configurations. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo set the project property in the core section, run:\n\n  $ {command} project myProject\n\nTo set the zone property in the compute section, run:\n\n  $ {command} compute/zone zone3', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5c364b0>, command_path=['gcloud', 'config', 'set'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, installation=False, log_http=None, project=None, property='compute/region', quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', value=u'asia-east1', verbosity='none', version=None).
+2016-11-16 13:20:04,964 INFO     ___FILE_ONLY___ Updated property [compute/region].
+
+2016-11-16 13:20:04,964 INFO     root            Display disabled.
+2016-11-16 13:20:04,973 INFO     ___FILE_ONLY___ Your project default Compute Engine region has been set to [asia-east1].
+You can change it by running [gcloud config set compute/region NAME].
+
+
+2016-11-16 13:20:04,977 DEBUG    root            Executing command: ['/data/data/com.termux/files/home/gcloud/google-cloud-sdk/bin/gsutil', 'config', '-n', '-o', '/data/data/com.termux/files/home/.boto']
+2016-11-16 13:20:05,030 DEBUG    root            (gcloud.init) /data/data/com.termux/files/home/gcloud/google-cloud-sdk/bin/gsutil: command not found
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 740, in Execute
+    resources = args.calliope_command.Run(cli=self, args=args)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 1648, in Run
+    resources = command_instance.Run(args)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/surface/init.py", line 123, in Run
+    self._CreateBotoConfig()
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/surface/init.py", line 464, in _CreateBotoConfig
+    err_func=log.file_only_logger.debug)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/core/execution_utils.py", line 284, in Exec
+    raise InvalidCommandError(args[0])
+InvalidCommandError: /data/data/com.termux/files/home/gcloud/google-cloud-sdk/bin/gsutil: command not found
+2016-11-16 13:20:05,036 ERROR    root            (gcloud.init) /data/data/com.termux/files/home/gcloud/google-cloud-sdk/bin/gsutil: command not found

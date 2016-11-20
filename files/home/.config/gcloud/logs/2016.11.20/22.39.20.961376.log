@@ -1,0 +1,28 @@
+2016-11-20 22:39:20,965 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2016-11-20 22:39:20,971 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'install']
+2016-11-20 22:39:20,975 DEBUG    root            Running gcloud.components.install with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.components.install', usage=None, description='Ensure that each of the specified components (as well as any dependent\ncomponents) is installed on the local workstation.  Components are installed\nwithout performing any upgrades to your existing SDK installation.  All\ncomponents are installed at the current version of your SDK.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, allow_no_backup=False, architecture_override=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5bf55b0>, command_path=['gcloud', 'components', 'install'], component_ids=['cloud-datastore-emulator'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, operating_system_override=None, project=None, quiet=None, sdk_root_override=None, snapshot_url_override=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2016-11-20 22:39:21,787 INFO     ___FILE_ONLY___ 
+
+2016-11-20 22:39:21,790 INFO     ___FILE_ONLY___ 
+Your current Cloud SDK version is: 133.0.0
+
+2016-11-20 22:39:21,790 INFO     ___FILE_ONLY___ Installing components from version: 133.0.0
+
+2016-11-20 22:39:21,791 INFO     ___FILE_ONLY___ 
+
+2016-11-20 22:39:21,792 DEBUG    root            (gcloud.components.install) Your current working directory is inside the Cloud SDK install root: /data/data/com.termux/files/home/gcloud/google-cloud-sdk.  In order to perform this update, run the command from outside of this directory.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 740, in Execute
+    resources = args.calliope_command.Run(cli=self, args=args)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 1648, in Run
+    resources = command_instance.Run(args)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/surface/components/install.py", line 80, in Run
+    args.component_ids, allow_no_backup=args.allow_no_backup)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/core/updater/update_manager.py", line 660, in Install
+    restart_args=restart_args)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/core/updater/update_manager.py", line 752, in Update
+    disable_backup = self._ShouldDoFastUpdate(allow_no_backup=allow_no_backup)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/core/updater/update_manager.py", line 320, in _ShouldDoFastUpdate
+    'outside of this directory.'.format(root=self.__sdk_root))
+InvalidCWDError: Your current working directory is inside the Cloud SDK install root: /data/data/com.termux/files/home/gcloud/google-cloud-sdk.  In order to perform this update, run the command from outside of this directory.
+2016-11-20 22:39:21,799 ERROR    root            (gcloud.components.install) Your current working directory is inside the Cloud SDK install root: /data/data/com.termux/files/home/gcloud/google-cloud-sdk.  In order to perform this update, run the command from outside of this directory.

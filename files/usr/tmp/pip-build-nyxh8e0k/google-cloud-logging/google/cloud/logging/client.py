@@ -1,0 +1,266 @@
+# Copyright 2016 Google Inc.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+"""Client for interacting with the Google Stackdriver Logging API."""
+
+import os
+
+try:
+    from google.cloud.logging._gax import make_gax_logging_api
+    from google.cloud.logging._gax import make_gax_metrics_api
+    from google.cloud.logging._gax import make_gax_sinks_api
+except ImportError:  # pragma: NO COVER
+    _HAVE_GAX = False
+    make_gax_logging_api = None
+    make_gax_metrics_api = None
+    make_gax_sinks_api = None
+else:
+    _HAVE_GAX = True
+
+from google.cloud.client import JSONClient
+from google.cloud.environment_vars import DISABLE_GRPC
+from google.cloud.logging._http import Connection
+from google.cloud.logging._http import _LoggingAPI as JSONLoggingAPI
+from google.cloud.logging._http import _MetricsAPI as JSONMetricsAPI
+from google.cloud.logging._http import _SinksAPI as JSONSinksAPI
+from google.cloud.logging.logger import Logger
+from google.cloud.logging.metric import Metric
+from google.cloud.logging.sink import Sink
+
+
+_DISABLE_GAX = os.getenv(DISABLE_GRPC, False)
+_USE_GAX = _HAVE_GAX and not _DISABLE_GAX
+
+
+class Client(JSONClient):
+    """Client to bundle configuration needed for API requests.
+
+    :type project: str
+    :param project: the project which the client acts on behalf of.
+                    If not passed, falls back to the default inferred
+                    from the environment.
+
+    :type credentials: :class:`oauth2client.client.OAuth2Credentials` or
+                       :class:`NoneType`
+    :param credentials: The OAuth2 Credentials to use for the connection
+                        owned by this client. If not passed (and if no ``http``
+                        object is passed), falls back to the default inferred
+                        from the environment.
+
+    :type http: :class:`httplib2.Http` or class that defines ``request()``.
+    :param http: An optional HTTP object to make requests. If not passed, an
+                 ``http`` object is created that is bound to the
+                 ``credentials`` for the current object.
+
+    :type use_gax: bool
+    :param use_gax: (Optional) Explicitly specifies whether
+                    to use the gRPC transport (via GAX) or HTTP. If unset,
+                    falls back to the ``GOOGLE_CLOUD_DISABLE_GRPC`` environment
+                    variable
+    """
+
+    _connection_class = Connection
+    _logging_api = _sinks_api = _metrics_api = None
+
+    def __init__(self, project=None, credentials=None,
+                 http=None, use_gax=None):
+        super(Client, self).__init__(project, credentials, http)
+        if use_gax is None:
+            self._use_gax = _USE_GAX
+        else:
+            self._use_gax = use_gax
+
+    @property
+    def logging_api(self):
+        """Helper for logging-related API calls.
+
+        See:
+        https://cloud.google.com/logging/docs/api/reference/rest/v2/entries
+        https://cloud.google.com/logging/docs/api/reference/rest/v2/projects.logs
+        """
+        if self._logging_api is None:
+            if self._use_gax:
+                self._logging_api = make_gax_logging_api(self)
+            else:
+                self._logging_api = JSONLoggingAPI(self)
+        return self._logging_api
+
+    @property
+    def sinks_api(self):
+        """Helper for log sink-related API calls.
+
+        See:
+        https://cloud.google.com/logging/docs/api/reference/rest/v2/projects.sinks
+        """
+        if self._sinks_api is None:
+            if self._use_gax:
+                self._sinks_api = make_gax_sinks_api(self)
+            else:
+                self._sinks_api = JSONSinksAPI(self)
+        return self._sinks_api
+
+    @property
+    def metrics_api(self):
+        """Helper for log metric-related API calls.
+
+        See:
+        https://cloud.google.com/logging/docs/api/reference/rest/v2/projects.metrics
+        """
+        if self._metrics_api is None:
+            if self._use_gax:
+                self._metrics_api = make_gax_metrics_api(self)
+            else:
+                self._metrics_api = JSONMetricsAPI(self)
+        return self._metrics_api
+
+    def logger(self, name):
+        """Creates a logger bound to the current client.
+
+        :type name: str
+        :param name: the name of the logger to be constructed.
+
+        :rtype: :class:`google.cloud.logging.logger.Logger`
+        :returns: Logger created with the current client.
+        """
+        return Logger(name, client=self)
+
+    def list_entries(self, projects=None, filter_=None, order_by=None,
+                     page_size=None, page_token=None):
+        """Return a page of log entries.
+
+        See:
+        https://cloud.google.com/logging/docs/api/reference/rest/v2/entries/list
+
+        :type projects: list of strings
+        :param projects: project IDs to include. If not passed,
+                            defaults to the project bound to the client.
+
+        :type filter_: str
+        :param filter_:
+            a filter expression. See:
+            https://cloud.google.com/logging/docs/view/advanced_filters
+
+        :type order_by: str
+        :param order_by: One of :data:`~google.cloud.logging.ASCENDING`
+                         or :data:`~google.cloud.logging.DESCENDING`.
+
+        :type page_size: int
+        :param page_size: maximum number of entries to return, If not passed,
+                          defaults to a value set by the API.
+
+        :type page_token: str
+        :param page_token: opaque marker for the next "page" of entries. If not
+                           passed, the API will return the first page of
+                           entries.
+
+        :rtype: :class:`~google.cloud.iterator.Iterator`
+        :returns: Iterator of :class:`~google.cloud.logging.entries._BaseEntry`
+                  accessible to the current client.
+        """
+        if projects is None:
+            projects = [self.project]
+
+        return self.logging_api.list_entries(
+            projects=projects, filter_=filter_, order_by=order_by,
+            page_size=page_size, page_token=page_token)
+
+    def sink(self, name, filter_=None, destination=None):
+        """Creates a sink bound to the current client.
+
+        :type name: str
+        :param name: the name of the sink to be constructed.
+
+        :type filter_: str
+        :param filter_: (optional) the advanced logs filter expression
+                        defining the entries exported by the sink.  If not
+                        passed, the instance should already exist, to be
+                        refreshed via :meth:`Sink.reload`.
+
+        :type destination: str
+        :param destination: destination URI for the entries exported by
+                            the sink.  If not passed, the instance should
+                            already exist, to be refreshed via
+                            :meth:`Sink.reload`.
+
+        :rtype: :class:`google.cloud.logging.sink.Sink`
+        :returns: Sink created with the current client.
+        """
+        return Sink(name, filter_, destination, client=self)
+
+    def list_sinks(self, page_size=None, page_token=None):
+        """List sinks for the project associated with this client.
+
+        See:
+        https://cloud.google.com/logging/docs/api/reference/rest/v2/projects.sinks/list
+
+        :type page_size: int
+        :param page_size: maximum number of sinks to return, If not passed,
+                          defaults to a value set by the API.
+
+        :type page_token: str
+        :param page_token: opaque marker for the next "page" of sinks. If not
+                           passed, the API will return the first page of
+                           sinks.
+
+        :rtype: :class:`~google.cloud.iterator.Iterator`
+        :returns: Iterator of
+                  :class:`~google.cloud.logging.sink.Sink`
+                  accessible to the current client.
+        """
+        return self.sinks_api.list_sinks(
+            self.project, page_size, page_token)
+
+    def metric(self, name, filter_=None, description=''):
+        """Creates a metric bound to the current client.
+
+        :type name: str
+        :param name: the name of the metric to be constructed.
+
+        :type filter_: str
+        :param filter_: the advanced logs filter expression defining the
+                        entries tracked by the metric.  If not
+                        passed, the instance should already exist, to be
+                        refreshed via :meth:`Metric.reload`.
+
+        :type description: str
+        :param description: the description of the metric to be constructed.
+                            If not passed, the instance should already exist,
+                            to be refreshed via :meth:`Metric.reload`.
+
+        :rtype: :class:`google.cloud.logging.metric.Metric`
+        :returns: Metric created with the current client.
+        """
+        return Metric(name, filter_, client=self, description=description)
+
+    def list_metrics(self, page_size=None, page_token=None):
+        """List metrics for the project associated with this client.
+
+        See:
+        https://cloud.google.com/logging/docs/api/reference/rest/v2/projects.metrics/list
+
+        :type page_size: int
+        :param page_size: maximum number of metrics to return, If not passed,
+                          defaults to a value set by the API.
+
+        :type page_token: str
+        :param page_token: opaque marker for the next "page" of metrics. If not
+                           passed, the API will return the first page of
+                           metrics.
+
+        :rtype: :class:`~google.cloud.iterator.Iterator`
+        :returns: Iterator of :class:`~google.cloud.logging.metric.Metric`
+                  accessible to the current client.
+        """
+        return self.metrics_api.list_metrics(
+            self.project, page_size, page_token)

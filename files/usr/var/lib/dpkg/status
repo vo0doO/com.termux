@@ -172,6 +172,16 @@ Depends: libogg
 Description: FLAC (Free Lossless Audio Codec) library
 Homepage: https://xiph.org/flac/
 
+Package: python-dev
+Status: install ok installed
+Installed-Size: 768
+Maintainer: Fredrik Fornwall @fornwall
+Architecture: arm
+Version: 3.5.2-5
+Depends: python
+Description: Development files for python
+Homepage: http://python.org/
+
 Package: termux-elf-cleaner
 Status: install ok installed
 Installed-Size: 40

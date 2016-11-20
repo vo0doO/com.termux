@@ -1,4 +1,4 @@
-script_link="$( readlink "$BASH_SOURCE" )" || script_link="$BASH_SOURCE"
+script_link="$( readlink "$SHELL" )" || script_link="$SHELL"
 apparent_sdk_dir="${script_link%/*}"
 if [ "$apparent_sdk_dir" == "$script_link" ]; then
   apparent_sdk_dir=.

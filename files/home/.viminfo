@@ -10,20 +10,85 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/Con
+
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:wq!
-|2,0,1478693024,,"wq!"
 :q
-|2,0,1478692872,,"q"
+|2,0,1479670566,,"q"
+:wq!
+|2,0,1479669866,,"wq!"
+:w
+|2,0,1479669836,,"w"
+:q!
+|2,0,1479460561,,"q!"
+:q1
+|2,0,1479460487,,"q1"
+:qw!
+|2,0,1479460469,,"qw!"
+:w!
+|2,0,1479457565,,"w!"
+:wNext
+|2,0,1479404723,,"wNext"
+:Q
+|2,0,1479404371,,"Q"
+:Q!
+|2,0,1479404365,,"Q!"
+:ConqueTerm
+|2,0,1479404143,,"ConqueTerm"
+:colorscheme default
+|2,0,1479376516,,"colorscheme default"
+:colorscheme molokai
+|2,0,1479376487,,"colorscheme molokai"
+:PluginInstall
+|2,0,1479369519,,"PluginInstall"
+:colorscheme nightly
+|2,0,1479369492,,"colorscheme nightly"
+:colorscheme pablo
+|2,0,1479369477,,"colorscheme pablo"
+:colorscheme Tomorrow-Night-Blue
+|2,0,1479369328,,"colorscheme Tomorrow-Night-Blue"
+:colorscheme Tomorrow-Night
+|2,0,1479369311,,"colorscheme Tomorrow-Night"
+:cpfile
+|2,0,1478701535,,"cpfile"
+:cpfile 
+|2,0,1478701516,,"cpfile "
+:cprevious
+|2,0,1478701503,,"cprevious"
+:buffer 5
+|2,0,1478701436,,"buffer 5"
+:buffer 1
+|2,0,1478701402,,"buffer 1"
+:buffers
+|2,0,1478701364,,"buffers"
+:buffer
+|2,0,1478701341,,"buffer"
+:edit gcloud.bash
+|2,0,1478701285,,"edit gcloud.bash"
+:edit /data/data/com.termux/files/usr/google-cloud-sdk/completion.bash.inc
+|2,0,1478701243,,"edit /data/data/com.termux/files/usr/google-cloud-sdk/completion.bash.inc"
+:edit /data/data/com.termux/files/usr/etc/bash_completion.d/
+|2,0,1478701102,,"edit /data/data/com.termux/files/usr/etc/bash_completion.d/"
+:ConqueTerm easy_install
+|2,0,1478700724,,"ConqueTerm easy_install"
+:ConqueTerm $SHELL
+|2,0,1478700686,,"ConqueTerm $SHELL"
+:ConqueTermSplit
+|2,0,1478700629,,"ConqueTermSplit"
+:h
+|2,0,1478700409,,"h"
+:qall
+|2,0,1478699812,,"qall"
+:wq:1
+|2,0,1478698030,,"wq:1"
+:wq
+|2,0,1478696567,,"wq"
 :edit /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
 |2,0,1478692478,,"edit /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc"
-:q!
-|2,0,1478691414,,"q!"
-:w!
-|2,0,1478691406,,"w!"
 :VirtualEnvList
 |2,0,1478681020,,"VirtualEnvList"
 :VimballList
@@ -42,46 +107,36 @@ $
 |2,0,1478680729,,"delete"
 :edit ../
 |2,0,1478680622,,"edit ../"
-:wq
-|2,0,1478680137,,"wq"
 :visual
 |2,0,1478679613,,"visual"
-:q1
-|2,0,1478678207,,"q1"
 :lnfile 	
 |2,0,1478678191,,"lnfile 	"
 :Hexplore
 |2,0,1478678079,,"Hexplore"
-:Q
-|2,0,1478677251,,"Q"
 :VirtualEnvActivate
 |2,0,1478677130,,"VirtualEnvActivate"
 :edit /data/data/com.termux/files/usr/tmp/tmp.knFA3B4V6g/install_google
 |2,0,1478533628,,"edit /data/data/com.termux/files/usr/tmp/tmp.knFA3B4V6g/install_google"
-:cmd
-|2,0,1478533474,,"cmd"
-:!
-|2,0,1478533396,,"!"
-:qq
-|2,0,1478532508,,"qq"
-:edit newtest
-|2,0,1478395316,,"edit newtest"
-:edit /Download/
-|2,0,1478395091,,"edit /Download/"
-:cpfile
-|2,0,1478396100,,"cpfile"
-:cpfile 
-|2,0,1478396088,,"cpfile "
-:qw!
-|2,0,1477853151,,"qw!"
-:PluginInstall
-|2,0,1477852971,,"PluginInstall"
-:python3 import sys; print(sys.version)
-|2,0,1476713264,,"python3 import sys; print(sys.version)"
-:python import sys; print(sys.version)
-|2,0,1476712991,,"python import sys; print(sys.version)"
 
 # Search String History (newest to oldest):
+? \s\+$
+|2,1,1479669866,,"\\s\\+$"
+?/python
+|2,1,1479452664,47,"python"
+?/Con
+|2,1,1479404496,47,"Con"
+?/color
+|2,1,1479404314,47,"color"
+?/prompt
+|2,1,1478701334,47,"prompt"
+? \Vgo\%#
+|2,1,1478700090,,"\\Vgo\\%#"
+?/vpc
+|2,1,1478694307,47,"vpc"
+?/vcp
+|2,1,1478694301,47,"vcp"
+?/\a''''
+|2,1,1478692929,47,"\\a''''"
 ??\a
 |2,1,1478678119,63,"\\a"
 
@@ -100,267 +155,366 @@ $
 	set rtp+=~/.vim/bundle/Vundle.vim
 	call vundle#begin()
 |3,0,0,0,6,0,1478678121,"iledtype off			\"required","","\"  установка первым делом путя к включению Vundle и инициализации","","set rtp+=~/.vim/bundle/Vundle.vim","call vundle#begin()"
-"1	CHAR	0
+""1	CHAR	0
+	    def a(self):
+	        print(2)
+	class C(B):
+	    def b(self):
+	        print(3)
+	
+	c = C()
+	c.a()
+|3,1,1,0,8,0,1479457373,"    def a(self):","        print(2)","class C(B):","    def b(self):","        print(3)","","c = C()","c.a()"
+"2	CHAR	0
+	class A:
+	    def method(self):
+	        print("А метод")
+	
+	class B(A):
+	    def vtoroi_method(self):
+	        print("Б метод")
+	
+	class C(B):
+	    def treti_method(self):
+	        print("С метод")
+	
+	C().method()
+	C().vtoroi_method()
+	C().treti_method()
+|3,0,2,0,15,0,1479456662,"class A:","    def method(self):","        print(\"А метод\")","","class B(A):","    def vtoroi_method(self):","        print(\"Б метод\")","","class C(B):","    def treti_method(self):","        print(\"С метод\")","","C().method()","C().vtoroi_method()","C().treti_method()"
+"3	CHAR	0
+	_python_argcomplete() {
+	    local IFS=''
+	    local prefix=
+	    typeset -i n
+	    (( lastw=${#COMP_WORDS[@]} -1))
+	    if [[ ${COMP_WORDS[lastw]} == --*=* ]]; then
+	        # for bash version 3.2
+	        flag=${COMP_WORDS[lastw]%%=*}
+	        set -- "$1" "$2" '='
+	    elif [[ $3 == '=' ]]; then
+	      flag=${COMP_WORDS[-3]}
+	    fi
+	    if [[ $3 == ssh  && $2 == *@* ]] ;then
+	        # handle ssh user@instance specially
+	        prefix=${2%@*}@
+	        COMP_LINE=${COMP_LINE%$2}"${2#*@}"
+	    elif [[ $3 == '=' ]] ; then
+	        # handle --flag=value
+	        prefix=$flag=$2
+	        line=${COMP_LINE%$prefix};
+	        COMP_LINE=$line${prefix/=/ };
+	        prefix=
+	    fi
+	    if [[ $2 == *,* ]]; then
+	          # handle , separated list
+	          prefix=${2%,*},
+	          set -- "$1" "${2#$prefix}" "$3"
+	          COMP_LINE==${COMP_LINE%$prefix*}$2
+	    fi
+	274
+<    COMPREPLY=( $(IFS="$IFS"                   COMP_LINE="$COMP_LINE"                   COMP_POINT="$COMP_POINT"                   _ARGCOMPLETE_COMP_WORDBREAKS="$COMP_WORDBREAKS"                   _ARGCOMPLETE=1                   "$1" 8>&1 9>&2 1>/dev/null 2>/dev/null) )
+	    if [[ $? != 0 ]]; then
+	        unset COMPREPLY
+	        return
+	    fi
+	    if [[ $prefix != '' ]]; then
+	        for ((n=0; n < ${#COMPREPLY[@]}; n++)); do
+	            COMPREPLY[$n]=$prefix${COMPREPLY[$n]}
+	        done
+	    fi
+	    for ((n=0; n < ${#COMPREPLY[@]}; n++)); do
+	        match=${COMPREPLY[$n]%' '}
+	        if [[ $match != '' ]]; then
+	            COMPREPLY[$n]=${match//? /' '}' '
+	        fi
+	    done
+	    # if flags argument has a single completion and ends in  '= ', delete ' '
+	    if [[ ${#COMPREPLY[@]} == 1 && ${COMPREPLY[0]} == -* &&
+	          ${COMPREPLY[0]} == *'= ' ]]; then
+	        COMPREPLY[0]=${COMPREPLY[0]%' '}
+	    fi
+|3,0,3,0,50,0,1478701467,"_python_argcomplete() {","    local IFS=''","    local prefix=","    typeset -i n","    (( lastw=${#COMP_WORDS[@]} -1))","    if [[ ${COMP_WORDS[lastw]} == --*=* ]]; then","        # for bash version 3.2","        flag=${COMP_WORDS[lastw]%%=*}","        set -- \"$1\" \"$2\" '='","    elif [[ $3 == '=' ]]; then","      flag=${COMP_WORDS[-3]}","    fi","    if [[ $3 == ssh  && $2 == *@* ]] ;then",>46
+|<"        # handle ssh user@instance specially","        prefix=${2%@*}@","        COMP_LINE=${COMP_LINE%$2}\"${2#*@}\"","    elif [[ $3 == '=' ]] ; then","        # handle --flag=value","        prefix=$flag=$2","        line=${COMP_LINE%$prefix};","        COMP_LINE=$line${prefix/=/ };","        prefix=","    fi","    if [[ $2 == *,* ]]; then","          # handle , separated list","          prefix=${2%,*},","          set -- \"$1\" \"${2#$prefix}\" \"$3\"",>46
+|<"          COMP_LINE==${COMP_LINE%$prefix*}$2","    fi","    COMPREPLY=( $(IFS=\"$IFS\"                   COMP_LINE=\"$COMP_LINE\"                   COMP_POINT=\"$COMP_POINT\"                   _ARGCOMPLETE_COMP_WORDBREAKS=\"$COMP_WORDBREAKS\"                   _ARGCOMPLETE=1                   \"$1\" 8>&1 9>&2 1>/dev/null 2>/dev/null) )","    if [[ $? != 0 ]]; then","        unset COMPREPLY","        return","    fi","    if [[ $prefix != '' ]]; then",>52
+|<"        for ((n=0; n < ${#COMPREPLY[@]}; n++)); do","            COMPREPLY[$n]=$prefix${COMPREPLY[$n]}","        done","    fi","    for ((n=0; n < ${#COMPREPLY[@]}; n++)); do","        match=${COMPREPLY[$n]%' '}","        if [[ $match != '' ]]; then","            COMPREPLY[$n]=${match//? /' '}' '","        fi","    done","    # if flags argument has a single completion and ends in  '= ', delete ' '","    if [[ ${#COMPREPLY[@]} == 1 && ${COMPREPLY[0]} == -* &&",>45
+|<"          ${COMPREPLY[0]} == *'= ' ]]; then","        COMPREPLY[0]=${COMPREPLY[0]%' '}","    fi"
+"4	LINE	0
+	command_not_found_handle() {
+		/data/data/com.termux/files/usr/libexec/termux/command-not-found "$SHELL"
+	}
+|3,0,4,1,3,0,1478697230,"command_not_found_handle() {","	/data/data/com.termux/files/usr/libexec/termux/command-not-found \"$SHELL\"","}"
+"5	CHAR	0
 	iledtype off			"required
 	
 	"  установка первым делом путя к включению Vundle и инициализации
 	
 	set rtp+=~/.vim/bundle/Vundle.vim
 	call vundle#begin()
-|3,0,1,0,6,0,1477044737,"iledtype off			\"required","","\"  установка первым делом путя к включению Vundle и инициализации","","set rtp+=~/.vim/bundle/Vundle.vim","call vundle#begin()"
-"2	CHAR	0
+|3,0,5,0,6,0,1477044737,"iledtype off			\"required","","\"  установка первым делом путя к включению Vundle и инициализации","","set rtp+=~/.vim/bundle/Vundle.vim","call vundle#begin()"
+"6	CHAR	0
 	set nocompatible		"required
 	f
-|3,0,2,0,2,0,1477044722,"set nocompatible		\"required","f"
+|3,0,6,0,2,0,1477044722,"set nocompatible		\"required","f"
 "q	CHAR	0
 	�kb�kb�kb
 |3,0,26,0,1,0,1477040423,"�kb�kb�kb"
 "z	LINE	0
-	File:/storage/emulated/legacy/Download/kirsanov/material-design-lite-vo0/README.md
+	File:/data/data/com.termux/files/home/.bashrc
 	
-|3,0,35,1,2,0,1478395740,"File:/storage/emulated/legacy/Download/kirsanov/material-design-lite-vo0/README.md",""
+|3,0,35,1,2,0,1478701415,"File:/data/data/com.termux/files/home/.bashrc",""
 "-	CHAR	0
-	1
-|3,0,36,0,1,0,1476996333,"1"
+	0
+|3,0,36,0,1,0,1479404186,"0"
 
 # File marks:
-'0  1  70  /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
-|4,48,1,70,1478693024,"/data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc"
-'1  32  14  ~/.bashrc
-|4,49,32,14,1478692872,"~/.bashrc"
-'2  1  54  /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
-|4,50,1,54,1478692740,"/data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc"
-'3  97  1  ~/.bashrc
-|4,51,97,1,1478692375,"~/.bashrc"
-'4  97  1  ~/.bashrc
-|4,52,97,1,1478692375,"~/.bashrc"
-'5  97  1  ~/.bashrc
-|4,53,97,1,1478692375,"~/.bashrc"
-'6  113  22  ~/.bashrc
-|4,54,113,22,1478692054,"~/.bashrc"
-'7  113  22  ~/.bashrc
-|4,55,113,22,1478692054,"~/.bashrc"
-'8  113  22  ~/.bashrc
-|4,56,113,22,1478692054,"~/.bashrc"
-'9  113  22  ~/.bashrc
-|4,57,113,22,1478692054,"~/.bashrc"
+'0  1  0  ~/gcloud/getting-started-python/2-structured-data/requirements.txt
+|4,48,1,0,1479670566,"~/gcloud/getting-started-python/2-structured-data/requirements.txt"
+'1  3  11  ~/.bashrc
+|4,49,3,11,1479669019,"~/.bashrc"
+'2  3  8  ~/.bashrc
+|4,50,3,8,1479668943,"~/.bashrc"
+'3  1  0  ~/наслед.py
+|4,51,1,0,1479461183,"~/наслед.py"
+'4  1  0  ~/наслед.py
+|4,52,1,0,1479460561,"~/наслед.py"
+'5  15  17  ~/наслед.py
+|4,53,15,17,1479452890,"~/наслед.py"
+'6  1  17  ~/наслед.py
+|4,54,1,17,1479452890,"~/наслед.py"
+'7  15  17  ~/наслед.py
+|4,55,15,17,1479452890,"~/наслед.py"
+'8  15  17  ~/наслед.py
+|4,56,15,17,1479452890,"~/наслед.py"
+'9  1  17  ~/наслед.py
+|4,57,1,17,1479452890,"~/наслед.py"
 
 # Jumplist (newest first):
--'  1  70  /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
-|4,39,1,70,1478693024,"/data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc"
--'  32  14  ~/.bashrc
-|4,39,32,14,1478692872,"~/.bashrc"
--'  32  14  ~/.bashrc
-|4,39,32,14,1478692872,"~/.bashrc"
--'  1  54  /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
-|4,39,1,54,1478692740,"/data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/requirements.txt
+|4,39,1,0,1479670566,"~/gcloud/getting-started-python/2-structured-data/requirements.txt"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/config.py
+|4,39,1,0,1479669713,"~/gcloud/getting-started-python/2-structured-data/config.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/config.py
+|4,39,1,0,1479669713,"~/gcloud/getting-started-python/2-structured-data/config.py"
+-'  3  11  ~/.bashrc
+|4,39,3,11,1479669019,"~/.bashrc"
+-'  3  11  ~/.bashrc
+|4,39,3,11,1479669019,"~/.bashrc"
+-'  3  11  ~/.bashrc
+|4,39,3,11,1479669019,"~/.bashrc"
+-'  3  11  ~/.bashrc
+|4,39,3,11,1479669019,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1478692670,"~/.bashrc"
+|4,39,1,0,1479668978,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1478692670,"~/.bashrc"
--'  123  1  ~/.bashrc
-|4,39,123,1,1478692478,"~/.bashrc"
--'  123  1  ~/.bashrc
-|4,39,123,1,1478692478,"~/.bashrc"
+|4,39,1,0,1479668978,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1478692379,"~/.bashrc"
+|4,39,1,0,1479668978,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1478692379,"~/.bashrc"
--'  97  1  ~/.bashrc
-|4,39,97,1,1478692375,"~/.bashrc"
--'  97  1  ~/.bashrc
-|4,39,97,1,1478692375,"~/.bashrc"
--'  97  1  ~/.bashrc
-|4,39,97,1,1478692375,"~/.bashrc"
--'  97  1  ~/.bashrc
-|4,39,97,1,1478692375,"~/.bashrc"
--'  97  1  ~/.bashrc
-|4,39,97,1,1478692375,"~/.bashrc"
--'  97  1  ~/.bashrc
-|4,39,97,1,1478692375,"~/.bashrc"
+|4,39,1,0,1479668978,"~/.bashrc"
+-'  3  8  ~/.bashrc
+|4,39,3,8,1479668943,"~/.bashrc"
+-'  3  8  ~/.bashrc
+|4,39,3,8,1479668943,"~/.bashrc"
+-'  3  8  ~/.bashrc
+|4,39,3,8,1479668943,"~/.bashrc"
+-'  3  8  ~/.bashrc
+|4,39,3,8,1479668943,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1478692322,"~/.bashrc"
+|4,39,1,0,1479668920,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1478692322,"~/.bashrc"
--'  113  22  ~/.bashrc
-|4,39,113,22,1478692054,"~/.bashrc"
--'  113  22  ~/.bashrc
-|4,39,113,22,1478692054,"~/.bashrc"
--'  113  22  ~/.bashrc
-|4,39,113,22,1478692054,"~/.bashrc"
--'  113  22  ~/.bashrc
-|4,39,113,22,1478692054,"~/.bashrc"
--'  113  22  ~/.bashrc
-|4,39,113,22,1478692054,"~/.bashrc"
--'  113  22  ~/.bashrc
-|4,39,113,22,1478692054,"~/.bashrc"
--'  113  22  ~/.bashrc
-|4,39,113,22,1478692054,"~/.bashrc"
--'  113  22  ~/.bashrc
-|4,39,113,22,1478692054,"~/.bashrc"
+|4,39,1,0,1479668920,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1478691861,"~/.bashrc"
+|4,39,1,0,1479668920,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1478691861,"~/.bashrc"
--'  115  38  ~/.bashrc
-|4,39,115,38,1478691414,"~/.bashrc"
--'  115  38  ~/.bashrc
-|4,39,115,38,1478691414,"~/.bashrc"
--'  115  38  ~/.bashrc
-|4,39,115,38,1478691414,"~/.bashrc"
--'  115  38  ~/.bashrc
-|4,39,115,38,1478691414,"~/.bashrc"
--'  115  38  ~/.bashrc
-|4,39,115,38,1478691414,"~/.bashrc"
--'  115  38  ~/.bashrc
-|4,39,115,38,1478691414,"~/.bashrc"
--'  115  38  ~/.bashrc
-|4,39,115,38,1478691414,"~/.bashrc"
--'  115  38  ~/.bashrc
-|4,39,115,38,1478691414,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1478691006,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1478691006,"~/.bashrc"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  55  44  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,55,44,1478685703,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
--'  1  0  /data/data/com.termux/files/usr/bin/python2.7-config
-|4,39,1,0,1478685662,"/data/data/com.termux/files/usr/bin/python2.7-config"
+|4,39,1,0,1479668920,"~/.bashrc"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479461183,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  1  0  ~/наслед.py
+|4,39,1,0,1479460561,"~/наслед.py"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
+-'  12  9  ~/ipython - 2
+|4,39,12,9,1479460495,"~/ipython - 2"
 
 # History of marks within files (newest to oldest):
 
-> /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
-	*	1478693019	0
-	"	1	70
-	^	1	71
-	.	1	70
-	+	1	70
+> ~/gcloud/getting-started-python/2-structured-data/requirements.txt
+	*	1479670534	0
+	"	1	0
+
+> ~/gcloud/getting-started-python/2-structured-data/config.py
+	*	1479669860	0
+	"	46	0
+	^	76	0
+	.	35	21
+	+	35	21
+
+> ~/gcloud/NERD_tree_1
+	*	1479669712	0
+	"	15	3
+	.	1	0
+	+	1	0
 
 > ~/.bashrc
-	*	1478692710	0
-	"	32	14
-	^	113	23
-	.	113	23
+	*	1479669017	0
+	"	3	11
+	^	127	27
+	.	127	27
 	+	113	24
 	+	113	118
 	+	113	120
@@ -373,6 +527,476 @@ $
 	+	73	4
 	+	113	62
 	+	113	23
+	+	24	11
+	+	124	0
+	+	126	34
+	+	127	0
+	+	126	0
+	+	125	0
+	+	124	70
+	+	124	50
+	+	124	70
+	+	125	0
+	+	125	33
+	+	125	35
+	+	125	32
+	+	125	31
+	+	127	27
+
+> ~/наслед.py
+	*	1479461180	0
+	"	1	0
+	^	5	11
+	.	5	10
+	+	1	9
+	+	1	4
+	+	1	8
+	+	1	13
+	+	1	6
+	+	1	0
+	+	1	14
+	+	1	19
+	+	1	11
+	+	1	0
+	+	1	6
+	+	1	0
+	+	1	6
+	+	1	0
+	+	1	11
+	+	1	0
+	+	1	8
+	+	1	66
+	+	1	8
+	+	1	67
+	+	1	51
+	+	1	31
+	+	1	51
+	+	2	0
+	+	5	9
+	+	5	10
+	+	6	19
+	+	10	9
+	+	7	15
+	+	5	10
+
+> ~/ipython - 2
+	*	1479460493	0
+	"	12	9
+	^	12	15
+	.	12	0
+	+	1	0
+	+	8	0
+	+	10	0
+	+	12	11
+	+	17	0
+	+	12	0
+	+	17	0
+	+	12	0
+
+> ~/ipython наслед.py - 1
+	*	1479460491	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/.vimrc
+	*	1479452869	0
+	"	176	36
+	^	176	37
+	.	176	36
+	+	1	0
+	+	2	39
+	+	20	0
+	+	2	0
+	+	177	33
+	+	178	30
+	+	175	31
+	+	176	36
+	+	92	18
+	+	175	34
+	+	176	41
+	+	175	36
+	+	354	33
+	+	355	30
+	+	177	33
+	+	178	30
+	+	175	31
+	+	176	36
+
+> ~/python - 2
+	*	1479404867	0
+	"	3	62
+	^	5	0
+	.	6	0
+	+	4	0
+	+	5	0
+	+	6	0
+
+> ~/python наслед.py - 1
+	*	1479404832	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/bash наслед.py - 2
+	*	1479404766	0
+	"	1	0
+	^	1	0
+	.	2	0
+	+	2	0
+
+> ~/bash - 1
+	*	1479404742	0
+	"	53	4
+	^	55	4
+	.	56	0
+	+	1	30
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	36
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	43	0
+	+	44	0
+	+	45	0
+	+	49	0
+	+	50	0
+	+	55	0
+	+	56	0
+
+> ~/python - 1
+	*	1479404440	0
+	"	7	4
+	^	7	4
+	.	7	0
+	+	4	0
+	+	6	0
+	+	7	0
+
+> ~/ipython - 1
+	*	1479404376	0
+	"	1	0
+	^	22	8
+	.	22	0
+	+	1	0
+	+	8	0
+	+	10	0
+	+	12	12
+	+	17	0
+	+	12	0
+	+	17	0
+	+	12	0
+	+	15	18
+	+	20	0
+	+	15	0
+	+	17	0
+	+	18	0
+	+	20	0
+	+	15	0
+	+	18	18
+	+	23	0
+	+	18	0
+	+	23	0
+	+	18	0
+	+	19	0
+	+	22	0
+
+> ~/[unite] - default
+	*	1479404150	0
+	"	1	5
+	.	1	0
+	+	1	0
+
+> ~/NERD_tree_1
+	*	1479403972	0
+	"	4	3
+	.	1	0
+	+	1	0
+
+> ~/ENV_DIR/lernpython/oop/class.py
+	*	1479387980	0
+	"	1	11
+	^	36	24
+	.	36	23
+	+	15	7
+	+	6	66
+	+	3	85
+	+	23	0
+	+	24	0
+	+	14	0
+	+	24	50
+	+	24	90
+	+	24	50
+	+	24	105
+	+	24	104
+	+	24	106
+	+	24	90
+	+	24	50
+	+	24	107
+	+	24	50
+	+	24	93
+	+	24	50
+	+	24	101
+	+	24	50
+	+	27	14
+	+	28	0
+	+	24	2
+	+	23	1
+	+	24	1
+	+	26	0
+	+	27	38
+	+	28	1
+	+	26	0
+	+	27	33
+	+	28	13
+	+	6	31
+	+	28	0
+	+	26	0
+	+	28	0
+	+	33	26
+	+	18	0
+	+	27	48
+	+	26	0
+	+	27	69
+	+	33	27
+	+	33	0
+	+	33	31
+	+	33	27
+	+	33	4
+	+	33	31
+	+	33	0
+	+	33	61
+	+	33	0
+	+	33	26
+	+	23	7
+	+	24	8
+	+	22	0
+	+	9	10
+	+	14	20
+	+	2	32
+	+	10	34
+	+	25	39
+	+	26	0
+	+	27	34
+	+	26	0
+	+	27	60
+	+	26	0
+	+	27	13
+	+	26	0
+	+	28	21
+	+	30	38
+	+	26	0
+	+	30	95
+	+	28	7
+	+	30	118
+	+	26	0
+	+	25	41
+	+	30	95
+	+	31	22
+	+	13	0
+	+	12	34
+	+	25	14
+	+	9	42
+	+	24	0
+	+	36	6
+	+	32	0
+	+	33	26
+	+	36	7
+	+	35	0
+	+	36	32
+	+	35	0
+	+	34	0
+	+	36	6
+	+	35	0
+	+	36	23
+
+> ~/ENV_DIR/lernpython/oop/ipython - 3
+	*	1479376812	0
+	"	15	1
+	^	15	2
+	.	15	2
+	+	1	0
+	+	8	0
+	+	10	0
+	+	12	0
+	+	15	0
+	+	12	0
+	+	15	0
+	+	12	0
+	+	15	0
+	+	14	0
+	+	15	0
+	+	14	0
+	+	15	0
+	+	12	0
+	+	14	0
+	+	15	0
+	+	13	0
+	+	15	0
+	+	15	12
+	+	15	2
+
+> ~/ENV_DIR/lernpython/oop/ipython - 2
+	*	1479376692	0
+	"	18	7
+	^	18	8
+	.	18	0
+	+	1	0
+	+	8	0
+	+	10	0
+	+	12	0
+	+	13	0
+	+	15	0
+	+	16	0
+	+	18	0
+
+> ~/ENV_DIR/lernpython/oop/NERD_tree_1
+	*	1479376499	0
+	"	4	3
+	.	1	0
+	+	1	0
+
+> ~/ENV_DIR/lernpython/oop/ipython - 1
+	*	1479376396	0
+	"	69	8
+	^	69	9
+	.	69	0
+	+	1	0
+	+	8	0
+	+	10	0
+	+	12	0
+	+	30	0
+	+	39	0
+	+	40	0
+	+	42	0
+	+	44	0
+	+	45	0
+	+	47	0
+	+	48	0
+	+	55	0
+	+	60	0
+	+	55	0
+	+	58	0
+	+	55	0
+	+	56	0
+	+	55	0
+	+	58	0
+	+	61	0
+	+	65	0
+	+	69	0
+
+> ~/ENV_DIR/lernpython/oop/.vimrc
+	*	1479372384	0
+	"	1	0
+
+> ~/ENV_DIR/lernpython/oop/ipython class.py - 1
+	*	1479369794	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> /data/data/com.termux/files/usr/share/vim/vim80/doc/help.txt
+	*	1479369776	0
+	"	14	0
+
+> ~/gcloud.bash
+	*	1478702313	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> /data/data/com.termux/files/usr/google-cloud-sdk/completion.bash.inc
+	*	1478702271	0
+	"	78	48
+	^	78	49
+	.	79	0
+	+	1	0
+	+	79	0
+
+> /data/data/com.termux/files/usr/google-cloud-sdk/completion..bash.inc
+	*	1478700950	0
+	"	1	0
+
+> ~/easy_install - 1
+	*	1478700740	0
+	"	1	0
+	^	1	0
+
+> /.bashrc
+	*	1478699796	0
+	"	1	0
+
+> ~/bashrc
+	*	1478699751	0
+	"	1	0
+
+> /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
+	*	1478699736	0
+	"	1	10
+	^	1	11
+	.	4	20
+	+	1	58
+	+	4	20
+
+> /data/data/com.termux/files/usr/etc/bash.bashrc
+	*	1478699411	0
+	"	6	0
+	^	6	0
+	.	6	0
+	+	1	1
+	+	1	0
+	+	2	71
+	+	1	0
+	+	2	68
+	+	3	1
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	10	0
+	+	8	0
+	+	7	0
+	+	6	0
+
+> /usr/share/doc/bash-doc/examples
+	*	1478698818	0
+	"	1	0
+
+> /data/data/com.termux/files/usr/bin/bash.bashrc
+	*	1478698681	0
+	"	1	0
+
+> ~/.bash_aliases
+	*	1478696760	0
+	"	1	0
+
+> /system/etc/bash.bashrc
+	*	1478696194	0
+	"	1	0
+
+> /data/data/com.termux/files/usr/etc/bash_completion
+	*	1478696060	0
+	"	1	0
 
 > /data/data/com.termux/files/usr/bin/python2.7-config
 	*	1478685695	0
@@ -388,20 +1012,6 @@ $
 > /data/data/com.termux/files/usr/etc/bash_completion.d/apt
 	*	1478682587	0
 	"	102	0
-
-> ~/NERD_tree_1
-	*	1478682568	0
-	"	5	0
-	.	1	0
-	+	1	0
-
-> /data/data/com.termux/files/usr/etc/bash.bashrc
-	*	1478682536	0
-	"	1	0
-	^	2	69
-	.	2	68
-	+	3	1
-	+	2	68
 
 > /data/data/com.termux/files/usr/etc/profile
 	*	1478682512	0
@@ -440,29 +1050,6 @@ $
 > ~/google-cloud-sdk/config/bin/python
 	*	1478678121	0
 	"	2	82
-
-> ~/[unite] - default
-	*	1478677258	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/ipython - 1
-	*	1478677254	0
-	"	1	0
-	^	3	0
-	.	2	0
-	+	2	0
-
-> ~/.vimrc
-	*	1478677192	0
-	"	138	21
-	^	2	1
-	.	2	0
-	+	1	0
-	+	2	39
-	+	20	0
-	+	2	0
 
 > ~/google-cloud-sdk/lib/third_party/enum/__init__.py
 	*	1478556279	0

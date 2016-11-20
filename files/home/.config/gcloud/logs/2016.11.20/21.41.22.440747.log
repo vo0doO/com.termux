@@ -1,0 +1,12 @@
+2016-11-20 21:41:22,450 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2016-11-20 21:41:22,468 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'restore']
+2016-11-20 21:41:22,474 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'list']
+2016-11-20 21:41:22,482 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'repositories']
+2016-11-20 21:41:22,489 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'update']
+2016-11-20 21:41:22,494 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'remove']
+2016-11-20 21:41:22,500 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'install']
+2016-11-20 21:41:22,514 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'post_process']
+2016-11-20 21:41:22,520 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'copy_bundled_python']
+2016-11-20 21:41:22,525 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'reinstall']
+2016-11-20 21:41:22,532 DEBUG    root            No implementation for release track [PREVIEW] in file: [/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/surface/components/__init__.pyc]
+2016-11-20 21:41:22,544 ERROR    root            (gcloud.components) Invalid choice: 'upgade'. Did you mean 'update'?

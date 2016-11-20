@@ -1,269 +1,3 @@
-apt install vim
-exit
-env
-env - ~/PP/bin/
-env - ~/PP/bin/activate
-env source ~/PP/bin/activate
-env source ~./PP/bin/activate
-env source ./PP/bin/activate
-pyvenv source ./PP/bin/activate
-pyvenv source ./PP/bin/activate/
-pyvenv activate ./PP/bin/
-pip install
-vim
-env
-exit
-pyvenv source ENV_DIR
-pyvenv 
-pyvenv activate ENV_DIR/bin/activate
-pyvenv source ./ENV_DIR/bin/activate
-source ./ENV_DIR/bin/activate
-pip install --upgrade pip
-pip list
-exit
-la
-exit
-apt list
-apt get install termux-create-packages
-apt-get install termux-create-packages
-apt-get install termux-create-package
-termux
-create-package
-termux-api
-pip
-pip install
-env
-env config
-env --help
-print -i
-envprint -i
-env print -i
-env -i
-env -iu
-env -i ~/PP/bin/activate
-pip install
-env - ~/PP/bin/activate
-bash
-expotr PIP_REQUIRE_VIRTUALENV=false
-export PIP_REQUIRE_VIRTUALENV=false
-env
-pip install
-pip install --upgrade pip
-pyvenv
-venv
-pyvenv source ENV_DIR
-bash
-source ./ENV_DIR/bin/activate
-pwd
-cd ENV_DIR/
-pyvenv source ./ENV_DIR/bin/activate
-ls
-ls ENV_DIR/
-rmdir ENV_DIR/ --ignore-fail-on-non-empty
-ls
-rmdir a/b/c ENV_DIR/ --ignore-fail-on-non-empty
-rmdir ENV_DIR/ a/b/c/ --ignore-fail-on-non-empty
-rmdir ENV_DIR/ a/b/c --ignore-fail-on-non-empty
-rmdir --hel[
-rmdir --help
-rmdir --ignore-fail-on-non-empty ENV_DIR/
-ls
-ls source/
-env -
-vim
-ls
-vi 
-vim
-apt install vim-python
-vin
-vim --version
-pyvenv-3.5
-pyvenv-3.5 ENV_DIR $PWD
-pyvenv-3.5 ENV_DIR
-cd ..
-pyvenv3.5m-config
-pyvenv3.5m
-python -m pyvenv3.5m
-python
-python -m pip
-vim .vimrc
-apt full-upgrade
-apt
-apt-cache 
-apt-cache showscr
-apt showscr
-apt-cache showscr install
-apt-cache install showsrc
-apt-cache install showsrc
-apt-cache --help
-apt-cach sources.list
-apt-cache sources.list
-apt-cache showsources.list
-apt-cache show sources.list
-glob
-gcloud
-ls
-psd
-pwd
-ls
-cs google-cloud-sdk/
-cd google-cloud-sdk/
-ls
-ls bin/
-ls bin/bootstrapping/
-python bin/bootstrapping/setup.py
-python2.7 bin/bootstrapping/setup.py
-python2.7 bin/bootstrapping/setup.py
-pyvenv config 
-ls
-ls config/
-rm ./config/ --ignore-fail-on-non-empty
-rmdir ./config/ --ignore-fail-on-non-empty
-ls
-rmdir --help
-rmdir -p a/b/c./config/ --ignore-fail-on-non-empty
-rmdir -p  --ignore-fail-on-non-empty
-rmdir -p a/b/c  --ignore-fail-on-non-empty ./config/
-rmdir -p a/b  --ignore-fail-on-non-empty ./config/
-rmdir -p a/b  a --ignore-fail-on-non-empty ./config/
-rmdir -p a/b  a --ignore-fail-on-non-empty ./config/
-rmdir -p a/b --ignore-fail-on-non-empty ./config/
-rmdir -p --ignore-fail-on-non-empty ./config/
-ls
-rmdir -v --ignore-fail-on-non-empty ./config/
-ls
-ls
-la -v --ignore-fail-on-non-empty ./config/
-ls ./config/
-ls bin/
-cd ./bootstraping
-cd ./bootstapping
-cd ./bootstapping/
-cd bootstapping/
-link help
-link --help
-ls
-vim config
-vim config/
-ls bin
-ls bo
-cd ..
-ls
-ls gcloud/
-cd gcloud/google-cloud-sdk/
-ls
-ls bin/bootstrapping/
-python bin/bootstrapping/install.py 
-python bin/bootstrapping/setup.py 
-python3.5 bin/bootstrapping/setup.py 
-python2.7 bin/bootstrapping/setup.py 
-python2.7 bin/bootstrapping/install.py
-gcloud init
-/data/data/com.termux/files/home/.bashrc
-vim -E /data/data/com.termux/files/home/.bashrc
-restart shell
-reset shell
-gcloud
-echo $gcloud
-gcloud $pwd
-pwd $gcloud
-ls
-ls bin
-gcloud
-./gcloud
-./gcloud.sh
-./bin/gcloud.sh
-./bin/gcloud
-pwd
-cd bin
-ls
-gcloud
-./gcloud
-vim gcloud
-./gcloud
-vim gcloud
-./gcloud
-gcloud
-export PATH='~./gcloud/google-cloud-sdk/bin/gcloud'$PATH
-gcloud
-export PATH gcloud=~./gcloud/google-cloud-sdk/bin/gcloud$PATH
-gclous
-gcloud
-bash
-termux --help
-termux
-tmux
-apt install tmux
-termux-clipboard-get
-termux-clipboard-set
-termux-clipboard-get
-termux-clipboard-set
-termux-clipboard-get
-vim $termux-clipboard-get
-vim ~/.bashrc
-vim ~/.bashrc
-gcloud
-exit
-exit
-ps
-ps -a
-ps -h
-exit
-python2
-exit
-ps
-ps -h
-ps --help
-ps --help output
-ps -f output
-ps -f
-ps -F
-ps -l
-ps -v
-gcloud
-ls $PREFIX
-ls $PREFIX/ect
-ls $PREFIX/ect/
-ls $PREFIX/etc/
-ls $PREFIX/etc/profile 
-ls $PREFIX/etc/profile/
-ls ./$PREFIX/etc/profile
-ls ./\$PREFIX/etc/profile
-vim $PREFIX/etc/profile
-vim $PREFIX/etc/bash.bashrc 
-vim $PREFIX/etc/bash_completion.d/
-ls $PREFIX/etc/bash_completion.d/
-cd $PREFIX
-LS
-ls
-ls -al
-ls usr
-ls usr/
-ls -al
-ls -al bin/
-env - $PREFIX/bin/
-env -i $PREFIX/bin/
-whoami
-gcloud
-link
-slink
-link --help
-link OPTION
-link $HOME/gcloud/google-cloud-sdk/bin/gcloud $PREFIX/bin/gcloud
-
-link $HOME/gcloud/google-cloud-sdk/bin/applets $PREFIX/bin/gcloud
-link $HOME/gcloud/google-cloud-sdk/bin/gcloud $PREFIX/bin/applets/gcloud
-gcloud
-cd $HOME
-LS
-LS
-cs gcloud/google-cloud-sdk/bin/
-cd gcloud/google-cloud-sdk/bin/
-ls
-gcloud
-./gcloud
-vim gcloud
-vim gcloud
 echo $CLOUDSDK_ROOT_DIR
 echo $CLOUDSDK_ROOT_DIR
 echo 
@@ -504,4 +238,263 @@ pyvenv'
 exit
 gvloud
 gcloud
+exit
+gcloud'
+bash
+vim /etc/bash.bashrc
+vim $PREFIX/etc/bash_completion
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+vim /etc/bash.bashrc
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+vim $PREFIX/etc/bash.bashrc
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+gcloud
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+./bash
+./bash_aliases
+~/bash_aliases
+~/.bash_aliases
+vim ~/.bash_aliases
+cd /usr/share/doc/bash-doc/examples
+cd /usr/share/doc/bash-doc/
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+gcloud
+termux-fix-shebang /data/data/com.termux/files/usr/google-cloud-sdk/bin/gcloud
+gcloud
+exit
+gcloud
+sh
+gcloud
+vim $PREFIX/etc/bash.bashrc
+q
+exec -l $SHELL
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+gcloud
+echo $SHELL
+echo $BASH
+ls $BASH
+ls $BASH/
+ls $SH
+echo $SH
+ls
+echo $S
+echo $1
+echo $PS1
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+gcloid
+gcloud
+
+gcloud
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+shell
+SHELL
+sh
+exit
+gcloud
+bash
+vim $PREFIX/etc/bash.bashrc
+gcloud
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+w
+k
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+ls
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+cd /
+ls
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+vim $PREFIX/etc/bash.bashrc
+exec -l $SHELL
+echo $PWD
+CD $HOME
+cd $HOME
+gcloud
+bash gcloud
+gcloud
+ls
+apt
+gcloud
+scr
+
+k
+[
+]
+[[
+gxloud
+exec -l $SHELL
+ls
+exit
+exot
+exit
+gcloud
+shell
+SHELL
+$SHELL
+$BASH
+$NASH_SOURCE
+$BASH_SOURCE
+$BASH_SOURCE
+gcloud
+$BASH_SOURCE
+exit
+echo $BASH_SOURCE
+echo $PS1
+vim /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
+gcloud
+basj
+bash
+$gcloud
+gcloud
+~$
+bash gcloud
+vcpptompt
+prompt
+proot
+su
+chroot
+chroot
+ischroot
+apt install debianutils
+ischroot
+ischroot --help
+ischroot -t
+chropt
+proot
+apt install proot
+cd /data/data/com.termux/
+ls
+ls lib
+ls -al
+git add ./
+git push
+git remote add origin https://github.com/vo0doO/com.termux.git
+git push -u origin master
+git commit -m 'add all rep. 09.11.2016'
+git config --global user.email "kirsanov.bvt@gmail.com"
+git config --global user.name "vo0doO"
+git commit -m 'add all rep. 09.11.2016'
+git remote add origin https://github.com/vo0doO/com.termux.git
+git remote add origin master https://github.com/vo0doO/com.termux.git
+git push -u origin master
+git push -u origin master
+vim /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
+vim /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
+vim /data/data/com.termux/files/usr/bin/bash.bashrc
+vim /usr/share/doc/bash-doc/examples
+cd /usr/share/doc/bash-doc/examples/
+cd /usr/share/doc/bash-doc/
+cd /usr/storage/share/doc/bash-doc/
+cd ~/
+vim .bashrc
+ls -al $PREFIX/etc/'
+
+ls
+vim $PREFIX/etc/bash.bashrc 
+exec -l $SHELL
+exit
+gcloud
+bash gcloud
+shell gcloud
+sh gcloud
+;s
+ls
+gcloud
+$gcloud
+gcloud | bash
+bash
+bash gcloud
+
+exec -l $SHELL
+exit
+vim .bashrc
+vim .bashrc
+ls
+cd dotfiles/
+vim ~/.bashrc
+exit
+cp $PREFIX/etc/bash_completion.d/  $HOME/google-cloud-sdk/completion.bash.inc
+cp $PREFIX/etc/bash_completion.d/ $HOME/google-cloud-sdk/completion.bash.inc
+cp $PREFIX/etc/bash_completion.d $HOME/google-cloud-sdk/completion.bash.inc
+cp $HOME/google-cloud-sdk/completion.bash.inc $PREFIX/etc/bash_completion.d/
+cp $HOME/google-cloud-sdk/completion.bash.inc $PR/.EFIX/etc/bash_completion.d/
+ls $PREFIX/etc/bash_completion.d/
+
+cp $HOME/google-cloud-sdk/completion.bash.inc $PREFIX/etc/bash_completion.d/completion.bash
+;s
+ls $PREFIX/etc/bash_completion.d/
+exec -l $SHELL
+gcloud
+source .bashrc
+cp .bashrc $PREFIX/etc
+ls $PREFIX/etc
+ls -al
+ls -al $PREFIX/etc
+rm .bashrc bash.bashrc
+rm $PREFIX/etc/.bashrc $PREFIX/etc/bash.bashrc
+ls -al $PREFIX/etc
+cp .bashrc $PREFIX/etc/bash.bashrc
+cp .bashrc $PREFIX/etc/
+ls -al
+exit
+$SHELL
+echo $SHELL
+vim /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
+vim ./bashrc//
+ex
+vim .bashrc
+vim .bashrc
+vim .bashrc
+bash(1)
+gcloud
+shell login
+login
+user
+users
+vim /data/data/com.termux/files/usr/google-cloud-sdk/completion..bash.inc
+vim /data/data/com.termux/files/usr/google-cloud-sdk/completion.bash.inc
+vim .bashrc
+exec -l $SHELL
+exec -l $SHELL
+gcloud
+cd /
+cd ..
+ls
+:q
+exit
+exit
+gcloud
+ls
+cd gcloud/google-cloud-sdk/
+ls
+cd bin/
+ls
+.gcloud
+./gcloud
+gcloud compute --project "projectvo0do0s" ssh --zone "asia-east1-a" "kirsadotcom"
+gclou init
+gcloud init
+gcloud compute --project "projectvo0do0s" ssh --zone "asia-east1-a" "kirsadotcom"
+exit
+python 
+python .py
+python 
 exit

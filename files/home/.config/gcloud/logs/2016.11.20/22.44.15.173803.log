@@ -1,0 +1,4 @@
+2016-11-20 22:44:15,181 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2016-11-20 22:44:15,188 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances']
+2016-11-20 22:44:15,312 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances', 'start']
+2016-11-20 22:44:15,321 ERROR    root            (gcloud.compute.instances.start) too few arguments

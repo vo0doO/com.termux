@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/data/data/com.termux/files/usr/bin/sh
 #
 # Copyright 2013 Google Inc. All Rights Reserved.
 #

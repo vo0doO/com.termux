@@ -1,0 +1,12 @@
+google_cloud_error_reporting-0.21.0-py2.7-nspkg.pth,sha256=ofmGPN1MmlzzixfrH6h3KelmTtzqTJmHlj89rIEGizE,1134
+google/cloud/error_reporting/__init__.py,sha256=2xrvtjozH2PTPaf2cEqKbcabGqoxGY-8KCtNLWnbp9o,686
+google/cloud/error_reporting/client.py,sha256=dh9VxJEfsCms7bg8GMQYEPMLH9W1NqOaoFcES-llsZI,10193
+google_cloud_error_reporting-0.21.0.dist-info/DESCRIPTION.rst,sha256=WNwaJJ0ezv8wHBc66mM0h2cXTp6QfzAZnS7SWoqfOoQ,2192
+google_cloud_error_reporting-0.21.0.dist-info/METADATA,sha256=B_kEzEbJ7re451akfXDT5uQFnsOYU3YgPDBShDSQ-Rs,3088
+google_cloud_error_reporting-0.21.0.dist-info/RECORD,,
+google_cloud_error_reporting-0.21.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+google_cloud_error_reporting-0.21.0.dist-info/metadata.json,sha256=kv9zicgS3Eatw8pgPk7Im3ax8ywb8kfGNHErKsGsgqE,1056
+google_cloud_error_reporting-0.21.0.dist-info/namespace_packages.txt,sha256=v8IaYqRE2a0onAGJIpZeFkkH83wXSWZRR9eOyfMwoTc,20
+google_cloud_error_reporting-0.21.0.dist-info/top_level.txt,sha256=iSgRRGBfdrYetR-ccPe0xHRbJwd-Gn1gzc05FOsJ5dA,18
+unit_tests/__init__.py,sha256=JEG2HLGNETaCZYjsqN8MJjEh8CfDlszqHtbjybpWPEM,575
+unit_tests/test_client.py,sha256=wyERwEfxrIWa8GW4QhvR8QeAEoY_R3qRPX9IX9EjeDg,5306

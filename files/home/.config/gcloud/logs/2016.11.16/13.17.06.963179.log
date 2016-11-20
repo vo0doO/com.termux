@@ -1,0 +1,61 @@
+2016-11-16 13:17:06,973 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2016-11-16 13:17:07,128 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
+2016-11-16 13:17:07,136 DEBUG    root            Running gcloud.compute.ssh with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.compute.ssh', usage=None, description='SSH into a virtual machine instance.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5bc7cd0>, command=None, command_path=['gcloud', 'compute', 'ssh'], configuration=None, container=None, credential_file_override=None, document=None, dry_run=False, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, plain=False, project='projectvo0do0s', quiet=None, ssh_args=[], ssh_flag=None, ssh_key_file=None, strict_host_key_checking=None, trace_email=None, trace_log=None, trace_token=None, user_host='kirsadotcom', user_output_enabled=None, verbosity='warning', version=None, zone='asia-east1-a').
+2016-11-16 13:17:17,418 DEBUG    root            (gcloud.compute.ssh) You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials, or if you have already logged in with a
+different account:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 740, in Execute
+    resources = args.calliope_command.Run(cli=self, args=args)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 1648, in Run
+    resources = command_instance.Run(args)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/surface/compute/ssh.py", line 124, in Run
+    instance_ref = self.CreateZonalReference(instance, args.zone)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/scope_prompter.py", line 306, in CreateZonalReference
+    [resource_name], zone_arg, resource_type, flag_names, region_filter)[0]
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/scope_prompter.py", line 298, in CreateZonalReferences
+    scope_service=self.compute.zones,
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/base_classes.py", line 175, in compute
+    return self.compute_client.apitools_client
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/base_classes.py", line 170, in compute_client
+    return self._compute_holder.client
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/base_classes.py", line 71, in client
+    self._client = client_adapter.ClientAdapter(self._api_version)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/client_adapter.py", line 40, in __init__
+    self._API_NAME, self._api_version)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/core/apis.py", line 254, in GetClientInstance
+    http_client = http.Http()
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/core/credentials/http.py", line 60, in Http
+    creds = store.Load()
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/core/credentials/store.py", line 282, in Load
+    raise NoActiveAccountException()
+NoActiveAccountException: You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials, or if you have already logged in with a
+different account:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.
+2016-11-16 13:17:17,455 ERROR    root            (gcloud.compute.ssh) You do not currently have an active account selected.
+Please run:
+
+  $ gcloud auth login
+
+to obtain new credentials, or if you have already logged in with a
+different account:
+
+  $ gcloud config set account ACCOUNT
+
+to select an already authenticated account to use.

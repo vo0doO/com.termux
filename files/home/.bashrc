@@ -121,3 +121,7 @@ fi
 if [ -f /data/data/com.termux/files/usr/google-cloud-sdk/completion.bash.inc ]; then
   source '/data/data/com.termux/files/usr/google-cloud-sdk/completion.bash.inc'
 fi
+
+sdk_dir="$HOME/google-cloud-sdk"
+bin_path="$sdk_dir/bin"
+export PATH=$bin_path:$PATH

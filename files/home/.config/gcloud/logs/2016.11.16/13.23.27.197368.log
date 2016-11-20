@@ -1,0 +1,9 @@
+2016-11-16 13:23:27,206 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2016-11-16 13:23:27,333 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
+2016-11-16 13:23:27,340 DEBUG    root            Running gcloud.compute.ssh with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.compute.ssh', usage=None, description='SSH into a virtual machine instance.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5ba9d90>, command=None, command_path=['gcloud', 'compute', 'ssh'], configuration=None, container=None, credential_file_override=None, document=None, dry_run=False, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, plain=False, project='projectvo0do0s', quiet=None, ssh_args=[], ssh_flag=None, ssh_key_file=None, strict_host_key_checking=None, trace_email=None, trace_log=None, trace_token=None, user_host='kirsadotcom', user_output_enabled=None, verbosity='warning', version=None, zone='asia-east1-a').
+2016-11-16 13:23:27,587 DEBUG    root            Starting batch request...
+2016-11-16 13:23:27,588 DEBUG    root            Adding request: (<googlecloudsdk.third_party.apis.compute.v1.compute_v1_client.InstancesService object at 0xb56c95f0>, 'Get', <ComputeInstancesGetRequest
+ instance: 'kirsadotcom'
+ project: 'projectvo0do0s'
+ zone: 'asia-east1-a'>)
+2016-11-16 13:23:27,590 DEBUG    root            Making batch request...

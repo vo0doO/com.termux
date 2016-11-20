@@ -1,0 +1,45 @@
+2016-11-20 22:44:36,102 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2016-11-20 22:44:36,109 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances']
+2016-11-20 22:44:36,224 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances', 'start']
+2016-11-20 22:44:36,230 DEBUG    root            Running gcloud.compute.instances.start with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.compute.instances.start', usage=None, description='Start a stopped virtual machine instance.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5b5dd30>, command_path=['gcloud', 'compute', 'instances', 'start'], configuration=None, credential_file_override=None, csek_key_file=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, names=['instance-1'], project=None, quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None, zone=None).
+2016-11-20 22:44:36,412 INFO     oauth2client.client Refreshing access_token
+2016-11-20 22:44:37,340 DEBUG    root            Starting batch request...
+2016-11-20 22:44:37,340 DEBUG    root            Adding request: (<googlecloudsdk.third_party.apis.compute.v1.compute_v1_client.InstancesService object at 0xb55e6f30>, 'Start', <ComputeInstancesStartRequest
+ instance: 'instance-1'
+ project: 'projectsvo0do0s'
+ zone: 'asia-east1-a'>)
+2016-11-20 22:44:37,343 DEBUG    root            Making batch request...
+2016-11-20 22:44:37,892 DEBUG    root            Error response: HttpError accessing <https://www.googleapis.com/batch>: response: <{'status': '400', 'Content-Length': '230', 'Expires': 'Sun, 20 Nov 2016 19:44:36 GMT', 'Cache-Control': 'private, max-age=0', 'Date': 'Sun, 20 Nov 2016 19:44:36 GMT', 'Content-Type': 'application/json; charset=UTF-8'}>, content <{
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "invalid",
+    "message": "Invalid value for project: projectsvo0do0s"
+   }
+  ],
+  "code": 400,
+  "message": "Invalid value for project: projectsvo0do0s"
+ }
+}
+>
+2016-11-20 22:44:37,894 DEBUG    root            Batch request done; responses [None]
+2016-11-20 22:44:37,906 DEBUG    root            (gcloud.compute.instances.start) Some requests did not succeed:
+ - Invalid value for project: projectsvo0do0s
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 740, in Execute
+    resources = args.calliope_command.Run(cli=self, args=args)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 1648, in Run
+    resources = command_instance.Run(args)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/base_classes.py", line 1057, in Run
+    utils.RaiseToolException(errors)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 118, in RaiseToolException
+    RaiseException(problems, calliope_exceptions.ToolException, error_message)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 130, in RaiseException
+    errors))
+ToolException: Some requests did not succeed:
+ - Invalid value for project: projectsvo0do0s
+
+2016-11-20 22:44:37,916 ERROR    root            (gcloud.compute.instances.start) Some requests did not succeed:
+ - Invalid value for project: projectsvo0do0s
+

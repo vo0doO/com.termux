@@ -1,0 +1,144 @@
+2016-11-16 15:08:37,105 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2016-11-16 15:08:37,311 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
+2016-11-16 15:08:37,320 DEBUG    root            Running gcloud.compute.ssh with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.compute.ssh', usage=None, description='SSH into a virtual machine instance.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5be6cf0>, command=None, command_path=['gcloud', 'compute', 'ssh'], configuration=None, container=None, credential_file_override=None, document=None, dry_run=False, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, plain=False, project='projectvo0do0s', quiet=None, ssh_args=[], ssh_flag=None, ssh_key_file=None, strict_host_key_checking=None, trace_email=None, trace_log=None, trace_token=None, user_host='instance-1', user_output_enabled=None, verbosity='warning', version=None, zone='asia-east1-a').
+2016-11-16 15:08:37,490 INFO     oauth2client.client Refreshing access_token
+2016-11-16 15:08:38,452 DEBUG    root            Starting batch request...
+2016-11-16 15:08:38,452 DEBUG    root            Adding request: (<googlecloudsdk.third_party.apis.compute.v1.compute_v1_client.InstancesService object at 0xb57ed3d0>, 'Get', <ComputeInstancesGetRequest
+ instance: 'instance-1'
+ project: 'projectvo0do0s'
+ zone: 'asia-east1-a'>)
+2016-11-16 15:08:38,455 DEBUG    root            Making batch request...
+2016-11-16 15:08:39,222 DEBUG    root            Batch request done; responses [<Instance
+ canIpForward: False
+ cpuPlatform: u'Intel Ivy Bridge'
+ creationTimestamp: u'2016-11-16T04:06:57.359-08:00'
+ description: u''
+ disks: [<AttachedDisk
+ autoDelete: True
+ boot: True
+ deviceName: u'instance-1'
+ index: 0
+ interface: InterfaceValueValuesEnum(SCSI, 1)
+ kind: u'compute#attachedDisk'
+ licenses: [u'https://www.googleapis.com/compute/v1/projects/ubuntu-os-cloud/global/licenses/ubuntu-1404-trusty']
+ mode: ModeValueValuesEnum(READ_WRITE, 1)
+ source: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-east1-a/disks/instance-1'
+ type: TypeValueValuesEnum(PERSISTENT, 0)>]
+ id: 8602219669602039054L
+ kind: u'compute#instance'
+ machineType: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-east1-a/machineTypes/f1-micro'
+ metadata: <Metadata
+ fingerprint: '\xecN\xf4p\x1e\xf7\xc7U'
+ items: []
+ kind: u'compute#metadata'>
+ name: u'instance-1'
+ networkInterfaces: [<NetworkInterface
+ accessConfigs: [<AccessConfig
+ kind: u'compute#accessConfig'
+ name: u'External NAT'
+ natIP: u'104.155.196.245'
+ type: TypeValueValuesEnum(ONE_TO_ONE_NAT, 0)>]
+ name: u'nic0'
+ network: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/global/networks/default'
+ networkIP: u'10.140.0.2'
+ subnetwork: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/regions/asia-east1/subnetworks/default'>]
+ scheduling: <Scheduling
+ automaticRestart: True
+ onHostMaintenance: OnHostMaintenanceValueValuesEnum(MIGRATE, 0)
+ preemptible: False>
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-east1-a/instances/instance-1'
+ serviceAccounts: [<ServiceAccount
+ email: u'959785874249-compute@developer.gserviceaccount.com'
+ scopes: [u'https://www.googleapis.com/auth/cloud-platform']>]
+ status: StatusValueValuesEnum(RUNNING, 1)
+ tags: <Tags
+ fingerprint: '\x15\x82\xc3\x82D\xca\x94\x0e'
+ items: [u'http-server']>
+ zone: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s/zones/asia-east1-a'>]
+2016-11-16 15:08:39,228 DEBUG    root            Starting batch request...
+2016-11-16 15:08:39,229 DEBUG    root            Adding request: (<googlecloudsdk.third_party.apis.compute.v1.compute_v1_client.ProjectsService object at 0xb57ed4b0>, 'Get', <ComputeProjectsGetRequest
+ project: 'projectvo0do0s'>)
+2016-11-16 15:08:39,233 DEBUG    root            Making batch request...
+2016-11-16 15:08:39,784 DEBUG    root            Batch request done; responses [<Project
+ commonInstanceMetadata: <Metadata
+ fingerprint: 'H\xc3;\x82\x0ek\xfa\xa4'
+ items: [<ItemsValueListEntry
+ key: u'sshKeys'
+ value: u'danilakirsanovspb:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAHlES0fIyPUAR9BfMN/J6jvh2N9HdhoaahDdy/aqFOH+XTK6NS+jcWUWuGFaIsvFUmpDU7VIW6lyxk1ES1bVMGAi4C06PiP2DEHd9EE7QuqySmQnX10jGBKVTdXiN6nV8rcgi0+Ng30xKBYouaX7QOYMYKoJ5DyRFlMoOre/JxK/5hiUjbyc5cIP345LwPkjl/yfVlRaDDtVXQgM9Vv6bYjw68BXeWYLIwfZiwjEc5PtKf5baIiUSMSx/da5LKO7oQ4jEC0AVGrFxWCczT0BYp7nDCkOm/EC3SxOycEcG5m4BkqrDaJhLBodpJqWryHhTGhRxj2VywCIxf74XOb+Kbc= google-ssh {"userName":"danilakirsanovspb@gmail.com","expireOn":"2016-11-09T15:21:17+0000"}\ndanilakirsanovspb:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCGXGtm7Dk1BaPznteLcjVAcPE8b2Ql0H4intuMRDGDPBo58OWUKxAPdqJkJFj4r0LiVLTceKptE8YGXMEKOrp4= google-ssh {"userName":"danilakirsanovspb@gmail.com","expireOn":"2016-11-09T15:21:16+0000"}\nvo0do0:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCluyBjO/++88p9aaD2YG186BpDzQasY6WFa5NBtfda+Jwnd+6+bcfjJ9DDLNPNfLyqzZXgCGn1+GfVjgV+PDQOkrOOzmDCCOqOZmNy8khFEYz3vNpKUVzyNGfIa2uOqee1abYnYT6yeovKZPVSe9RDmMdDV88Tbq7O1zqOfvGz/lB7V63FxmYYf6PN18m20B+pNk56S4IjOcseByf89t80Df+2E0twnX4Ww7TOF8X79TmlAkqHFYxsC0CYVekH6sGoiKV7uDX54rkyS7gqchUNKOQalwS4/Vk0JWiHFzxY1MTWT2Tkx43eULGPKiqlHeD2EgXcpoKjnNevhb7Fsqx1 DESKTOP-P8LI18N\\vo0do0@DESKTOP-P8LI18N\ndanilakirsanovspb:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWgh4WgSYIANkpOFPRMuIyzGBYA5jC+fuFi1+gY6FShn0Wf7tY28tAsyf3LgwgLfUzJh2JPNhrrEM0LBX793Bij4PpSdUfT1iykdlFvFfZObxaOQgiLD04jdkFqWwIQrIEpFma24Km1zI0eL9Wn0V8r1iSM7fbla3O3H/gs1W/zTrz0kg3XXtIjJxZWSd1X8X0PeXIDf+mdS+Ek0iclheHf3HSNaaIQS/c2/pe0nx/gZHPSCOg9lI86aYtUillteIkCAIW35DTdz1+SXvh9dmcERzFu4ylciSI6DAEOm5mJf2QAAHdeK8MawJ0Ztf+H2dTXoBi3CUiR9OJkdlQ0Z1J danilakirsanovspb@cs-6684-devshell-vm-462af072-b738-4b21-ad90-ab012af0d614-2e\nu0_a177:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqY574hMjTt/CFaIACH8BSjd0jtXThc9Ss7/0BzqsED7npfh+wiFz9QF+H7ADwRHchygcjkR0qVjXzr0PlMJul8nxcyjxbQ8iQU+8X87aSWu32vRtA5Lb1tNbuYLSp93TMhUfZSzzmZ2AVoiRAyii/Nke+zTdS4S8AXFiTenTPAHNulYuxB5XqjYqaqlt+WV+sZEvE1EL52vOVMOu4a0S3b9gHSx+KjeabXogOwnz6wrJpRDrywjEai3QTdzX9ppNNdS72sDseHjLtvWhum/jMpE7QqAsI4JMFYaiy6M54zCisjhZdHjfAWDaAG1Sm8Llh1LQAHZoXgcNGooTThc/j u0_a177@localhost'>]
+ kind: u'compute#metadata'>
+ creationTimestamp: u'2016-10-21T06:29:54.733-07:00'
+ defaultServiceAccount: u'959785874249-compute@developer.gserviceaccount.com'
+ enabledFeatures: []
+ id: 6561268897220634301L
+ kind: u'compute#project'
+ name: u'projectvo0do0s'
+ quotas: [<Quota
+ limit: 1000.0
+ metric: MetricValueValuesEnum(SNAPSHOTS, 20)
+ usage: 0.0>, <Quota
+ limit: 5.0
+ metric: MetricValueValuesEnum(NETWORKS, 14)
+ usage: 1.0>, <Quota
+ limit: 100.0
+ metric: MetricValueValuesEnum(FIREWALLS, 4)
+ usage: 6.0>, <Quota
+ limit: 100.0
+ metric: MetricValueValuesEnum(IMAGES, 7)
+ usage: 0.0>, <Quota
+ limit: 1.0
+ metric: MetricValueValuesEnum(STATIC_ADDRESSES, 23)
+ usage: 0.0>, <Quota
+ limit: 200.0
+ metric: MetricValueValuesEnum(ROUTES, 19)
+ usage: 7.0>, <Quota
+ limit: 15.0
+ metric: MetricValueValuesEnum(FORWARDING_RULES, 5)
+ usage: 0.0>, <Quota
+ limit: 50.0
+ metric: MetricValueValuesEnum(TARGET_POOLS, 28)
+ usage: 0.0>, <Quota
+ limit: 50.0
+ metric: MetricValueValuesEnum(HEALTH_CHECKS, 6)
+ usage: 0.0>, <Quota
+ limit: 23.0
+ metric: MetricValueValuesEnum(IN_USE_ADDRESSES, 12)
+ usage: 0.0>, <Quota
+ limit: 50.0
+ metric: MetricValueValuesEnum(TARGET_INSTANCES, 27)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(TARGET_HTTP_PROXIES, 26)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(URL_MAPS, 31)
+ usage: 0.0>, <Quota
+ limit: 5.0
+ metric: MetricValueValuesEnum(BACKEND_SERVICES, 1)
+ usage: 0.0>, <Quota
+ limit: 100.0
+ metric: MetricValueValuesEnum(INSTANCE_TEMPLATES, 11)
+ usage: 0.0>, <Quota
+ limit: 5.0
+ metric: MetricValueValuesEnum(TARGET_VPN_GATEWAYS, 30)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(VPN_TUNNELS, 32)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(ROUTERS, 18)
+ usage: 1.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(TARGET_SSL_PROXIES, 29)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(TARGET_HTTPS_PROXIES, 25)
+ usage: 0.0>, <Quota
+ limit: 10.0
+ metric: MetricValueValuesEnum(SSL_CERTIFICATES, 22)
+ usage: 0.0>, <Quota
+ limit: 100.0
+ metric: MetricValueValuesEnum(SUBNETWORKS, 24)
+ usage: 6.0>]
+ selfLink: u'https://www.googleapis.com/compute/v1/projects/projectvo0do0s'>]
+2016-11-16 15:08:39,787 DEBUG    root            Current SSH keys in project: [u'danilakirsanovspb:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAHlES0fIyPUAR9BfMN/J6jvh2N9HdhoaahDdy/aqFOH+XTK6NS+jcWUWuGFaIsvFUmpDU7VIW6lyxk1ES1bVMGAi4C06PiP2DEHd9EE7QuqySmQnX10jGBKVTdXiN6nV8rcgi0+Ng30xKBYouaX7QOYMYKoJ5DyRFlMoOre/JxK/5hiUjbyc5cIP345LwPkjl/yfVlRaDDtVXQgM9Vv6bYjw68BXeWYLIwfZiwjEc5PtKf5baIiUSMSx/da5LKO7oQ4jEC0AVGrFxWCczT0BYp7nDCkOm/EC3SxOycEcG5m4BkqrDaJhLBodpJqWryHhTGhRxj2VywCIxf74XOb+Kbc= google-ssh {"userName":"danilakirsanovspb@gmail.com","expireOn":"2016-11-09T15:21:17+0000"}', u'danilakirsanovspb:ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCGXGtm7Dk1BaPznteLcjVAcPE8b2Ql0H4intuMRDGDPBo58OWUKxAPdqJkJFj4r0LiVLTceKptE8YGXMEKOrp4= google-ssh {"userName":"danilakirsanovspb@gmail.com","expireOn":"2016-11-09T15:21:16+0000"}', u'vo0do0:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCluyBjO/++88p9aaD2YG186BpDzQasY6WFa5NBtfda+Jwnd+6+bcfjJ9DDLNPNfLyqzZXgCGn1+GfVjgV+PDQOkrOOzmDCCOqOZmNy8khFEYz3vNpKUVzyNGfIa2uOqee1abYnYT6yeovKZPVSe9RDmMdDV88Tbq7O1zqOfvGz/lB7V63FxmYYf6PN18m20B+pNk56S4IjOcseByf89t80Df+2E0twnX4Ww7TOF8X79TmlAkqHFYxsC0CYVekH6sGoiKV7uDX54rkyS7gqchUNKOQalwS4/Vk0JWiHFzxY1MTWT2Tkx43eULGPKiqlHeD2EgXcpoKjnNevhb7Fsqx1 DESKTOP-P8LI18N\\vo0do0@DESKTOP-P8LI18N', u'danilakirsanovspb:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDWgh4WgSYIANkpOFPRMuIyzGBYA5jC+fuFi1+gY6FShn0Wf7tY28tAsyf3LgwgLfUzJh2JPNhrrEM0LBX793Bij4PpSdUfT1iykdlFvFfZObxaOQgiLD04jdkFqWwIQrIEpFma24Km1zI0eL9Wn0V8r1iSM7fbla3O3H/gs1W/zTrz0kg3XXtIjJxZWSd1X8X0PeXIDf+mdS+Ek0iclheHf3HSNaaIQS/c2/pe0nx/gZHPSCOg9lI86aYtUillteIkCAIW35DTdz1+SXvh9dmcERzFu4ylciSI6DAEOm5mJf2QAAHdeK8MawJ0Ztf+H2dTXoBi3CUiR9OJkdlQ0Z1J danilakirsanovspb@cs-6684-devshell-vm-462af072-b738-4b21-ad90-ab012af0d614-2e', u'u0_a177:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqY574hMjTt/CFaIACH8BSjd0jtXThc9Ss7/0BzqsED7npfh+wiFz9QF+H7ADwRHchygcjkR0qVjXzr0PlMJul8nxcyjxbQ8iQU+8X87aSWu32vRtA5Lb1tNbuYLSp93TMhUfZSzzmZ2AVoiRAyii/Nke+zTdS4S8AXFiTenTPAHNulYuxB5XqjYqaqlt+WV+sZEvE1EL52vOVMOu4a0S3b9gHSx+KjeabXogOwnz6wrJpRDrywjEai3QTdzX9ppNNdS72sDseHjLtvWhum/jMpE7QqAsI4JMFYaiy6M54zCisjhZdHjfAWDaAG1Sm8Llh1LQAHZoXgcNGooTThc/j u0_a177@localhost']
+2016-11-16 15:08:39,788 DEBUG    root            /data/data/com.termux/files/usr/bin/ssh command: /data/data/com.termux/files/usr/bin/ssh -i /data/data/com.termux/files/home/.ssh/google_compute_engine -o UserKnownHostsFile=/data/data/com.termux/files/home/.ssh/google_compute_known_hosts -o IdentitiesOnly=yes -o CheckHostIP=no -o HostKeyAlias=compute.8602219669602039054 -o StrictHostKeyChecking=no u0_a177@104.155.196.245

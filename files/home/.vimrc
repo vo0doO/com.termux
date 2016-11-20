@@ -89,7 +89,7 @@ if has("gui_running")
 endif
 set ttyfast
 
-colorscheme nightly
+colorscheme molokai
 " set guifont=Consolas:h13
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h12
 
@@ -174,7 +174,7 @@ let g:tagbar_autofocus = 0 " autofocus on Tagbar open
 " ConqueTerm
 nnoremap <F5> :ConqueTermSplit ipython<CR> " run python-scripts at <F5>
 nnoremap <F6> :exe "ConqueTermSplit ipython " . expand("%")<CR> " and debug-mode for <F6>
-let g:ConqueTerm_StartMessages = 0
+let g:ConqueTerm_StartMessages = 0 
 let g:ConqueTerm_CloseOnEnd = 0
 
 " Jedi-vim
@@ -351,8 +351,8 @@ autocmd FileType html setlocal commentstring=<!--\ %s\ -->
 
 " --- Python ---
 let python_highlight_all=1
-let python_highlight_exceptions=0
-let python_highlight_builtins=0
+let python_highlight_exceptions=1
+let python_highlight_builtins=1
 let python_slow_sync=1
 autocmd FileType python setlocal completeopt-=preview
 autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=8

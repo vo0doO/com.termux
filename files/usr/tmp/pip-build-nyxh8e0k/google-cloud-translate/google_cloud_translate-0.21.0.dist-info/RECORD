@@ -1,0 +1,14 @@
+google_cloud_translate-0.21.0-py2.7-nspkg.pth,sha256=ofmGPN1MmlzzixfrH6h3KelmTtzqTJmHlj89rIEGizE,1134
+google/cloud/translate/__init__.py,sha256=k0YHZsCxUHg8eVXqi6z4i2MOYJ_lCx0xQR6w_3Gc69c,818
+google/cloud/translate/client.py,sha256=5GWVKi5qZANjvdpXruZaqArhbtJ-SE7v5Dau2qOWIEg,10545
+google/cloud/translate/connection.py,sha256=N0cx_AxRG3H4v8b1I5GQlpDCiqEaSj1MgHhWA3bH3_8,1233
+google_cloud_translate-0.21.0.dist-info/DESCRIPTION.rst,sha256=TPk22_ttgZDm22CMS9l-j0mDbHXhcw0gYqjigtGCd6U,1740
+google_cloud_translate-0.21.0.dist-info/METADATA,sha256=wX72y62pWQ3aMhenufOVq2lcCr9WF7FShFvARY-VL6s,2572
+google_cloud_translate-0.21.0.dist-info/RECORD,,
+google_cloud_translate-0.21.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+google_cloud_translate-0.21.0.dist-info/metadata.json,sha256=KFtB3RSj6bgBaJn2ADZecJifTqmBbNxER79vWSAv3F4,1004
+google_cloud_translate-0.21.0.dist-info/namespace_packages.txt,sha256=v8IaYqRE2a0onAGJIpZeFkkH83wXSWZRR9eOyfMwoTc,20
+google_cloud_translate-0.21.0.dist-info/top_level.txt,sha256=iSgRRGBfdrYetR-ccPe0xHRbJwd-Gn1gzc05FOsJ5dA,18
+unit_tests/__init__.py,sha256=JEG2HLGNETaCZYjsqN8MJjEh8CfDlszqHtbjybpWPEM,575
+unit_tests/test_client.py,sha256=jlhl6F41QFaW6zatm9MXN7KNJUT95mkoutdGD9NqUYY,13203
+unit_tests/test_connection.py,sha256=Nlq71DOMcs2meBgRZAUkwEtoz0bb0OhkF8hpCk5gh2o,1870

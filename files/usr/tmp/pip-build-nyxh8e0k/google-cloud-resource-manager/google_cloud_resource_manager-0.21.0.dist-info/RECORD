@@ -1,0 +1,16 @@
+google_cloud_resource_manager-0.21.0-py2.7-nspkg.pth,sha256=ofmGPN1MmlzzixfrH6h3KelmTtzqTJmHlj89rIEGizE,1134
+google/cloud/resource_manager/__init__.py,sha256=WkxPck7w4QLGZt1OHxq-eM0bu1u8eg2uqNXKiT9xszM,832
+google/cloud/resource_manager/client.py,sha256=HkzP2xq3qtKG3ATbJAKuqofQslzPOlRGgXQ3NeYxq4E,6650
+google/cloud/resource_manager/connection.py,sha256=G-1RECycw5-KaFHf5I2ZiwX9FEsoP0GFmcCC3pH41QA,1594
+google/cloud/resource_manager/project.py,sha256=XxPvLcMc8kG3nU5SfD4hKsEtmjeMR2iYbIChpQvi7zw,10600
+google_cloud_resource_manager-0.21.0.dist-info/DESCRIPTION.rst,sha256=bNEid7SXEY_qpD8pmSZWvO8viElCTyr4dpmn8pFIG9I,1952
+google_cloud_resource_manager-0.21.0.dist-info/METADATA,sha256=554GZQzigs-_ehsLKAjY0C6njbvLDGa_EfOgOg2B2fM,2804
+google_cloud_resource_manager-0.21.0.dist-info/RECORD,,
+google_cloud_resource_manager-0.21.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+google_cloud_resource_manager-0.21.0.dist-info/metadata.json,sha256=6OM5ToJuoI6o_IUS_NQk8Af4dWrdLKKmndIrYGKBBII,1024
+google_cloud_resource_manager-0.21.0.dist-info/namespace_packages.txt,sha256=v8IaYqRE2a0onAGJIpZeFkkH83wXSWZRR9eOyfMwoTc,20
+google_cloud_resource_manager-0.21.0.dist-info/top_level.txt,sha256=iSgRRGBfdrYetR-ccPe0xHRbJwd-Gn1gzc05FOsJ5dA,18
+unit_tests/__init__.py,sha256=JEG2HLGNETaCZYjsqN8MJjEh8CfDlszqHtbjybpWPEM,575
+unit_tests/test_client.py,sha256=Tu4iRCmwTm14V5O7PQR6JAfJRr6PgDG2l2Z_qWcgel0,10013
+unit_tests/test_connection.py,sha256=fvhijGomjmhv_QKZ1iCQTXKxcchRw6N9lbgPnNSurRg,1691
+unit_tests/test_project.py,sha256=_IV4DPI-y4Zgn5UToPb197E4qwyyflm_FVpbIk9adc4,12190

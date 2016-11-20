@@ -1,0 +1,24 @@
+2016-11-16 13:41:06,757 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2016-11-16 13:41:06,761 DEBUG    root            Running gcloud.init with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.init', usage=None, description='Initialize or reinitialize gcloud.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5c79550>, command_path=['gcloud', 'init'], configuration=None, console_only=False, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, obsolete_project_arg=None, project=None, quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2016-11-16 13:41:06,762 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2016-11-16 13:41:06,765 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2016-11-16 13:41:06,768 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2016-11-16 13:41:06,777 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'list']
+2016-11-16 13:41:06,782 DEBUG    root            Running gcloud.config.list with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.list', usage=None, description='Lists all properties in your active configuration. These include the\naccount used to authorize access to the Cloud Platform, the current Cloud\nPlatform project, and the default Compute Engine region and zone, if set. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo list the project property in the core section, run:\n\n  $ {command} project\n\nTo list the zone property in the compute section, run:\n\n  $ {command} compute/zone\n\nTo list all the properties, run:\n\n  $ {command} --all\n\nNote you cannot specify both --all and a property name.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, all=False, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5bd3d70>, command_path=['gcloud', 'config', 'list'], configuration=None, credential_file_override=None, document=None, filter=None, flatten=None, format=None, h=None, help=None, http_timeout=None, limit=None, log_http=None, project=None, property=None, quiet=None, sort_by=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2016-11-16 13:41:06,783 INFO     ___FILE_ONLY___ Your active configuration is: [default]
+
+
+2016-11-16 13:41:06,788 INFO     root            Display format "config".
+2016-11-16 13:41:06,789 INFO     ___FILE_ONLY___ [compute]
+region = asia-east1
+zone = asia-east1-a
+[core]
+account = danilakirsanovspb@gmail.com
+disable_usage_reporting = True
+project = projectvo0do0s
+
+2016-11-16 13:41:06,806 INFO     ___FILE_ONLY___ 
+

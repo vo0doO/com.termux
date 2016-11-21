@@ -15,11 +15,11 @@ Plugin 'Shougo/unite.vim'               " Navigation between buffers and files
 Plugin 'majutsushi/tagbar'              " Class/module browser
 
 "------------------=== Other ===----------------------
-Plugin 'bling/vim-airline'              " lean & mean status/tabline for vim that's light as air
+Plugin 'vim-airline/vim-airline-themes' " установка тем air-line из нового хранилища
 Plugin 'fisadev/FixedTaskList.vim'      " Pending tasks list
 Plugin 'rosenfeld/conque-term'          " Consoles as buffers
 Plugin 'tpope/vim-surround'             " Parentheses, brackets, quotes, XML tags, and more
-
+Plugin 'bling/vim-airline'              " lean & mean status/tabline for vim that's light as air
 "--------------=== Snippets support ===---------------
 Plugin 'garbas/vim-snipmate'            " Snippets manager
 Plugin 'MarcWeber/vim-addon-mw-utils'   " Dependencies #1

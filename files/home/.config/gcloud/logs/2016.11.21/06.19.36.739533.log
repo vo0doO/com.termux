@@ -1,0 +1,4 @@
+2016-11-21 06:19:36,784 DEBUG    root            Loaded Command Group: ['gcloud', 'source']
+2016-11-21 06:19:36,790 DEBUG    root            No implementation for release track [GA] in file: [/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/surface/source/captures/__init__.pyc]
+2016-11-21 06:19:36,791 DEBUG    root            Loaded Command Group: ['gcloud', 'source', 'repos']
+2016-11-21 06:19:36,796 ERROR    root            (gcloud.source) too few arguments

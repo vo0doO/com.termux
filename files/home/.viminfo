@@ -11,26 +11,30 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/Con
+~MSle0~/vim-airline
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1479670566,,"q"
+|2,0,1479714173,,"q"
+:PluginInstall
+|2,0,1479714142,,"PluginInstall"
 :wq!
-|2,0,1479669866,,"wq!"
+|2,0,1479714127,,"wq!"
 :w
-|2,0,1479669836,,"w"
+|2,0,1479714040,,"w"
+:wq
+|2,0,1479713834,,"wq"
+:w!
+|2,0,1479713785,,"w!"
 :q!
-|2,0,1479460561,,"q!"
+|2,0,1479713519,,"q!"
 :q1
 |2,0,1479460487,,"q1"
 :qw!
 |2,0,1479460469,,"qw!"
-:w!
-|2,0,1479457565,,"w!"
 :wNext
 |2,0,1479404723,,"wNext"
 :Q
@@ -43,8 +47,6 @@ $
 |2,0,1479376516,,"colorscheme default"
 :colorscheme molokai
 |2,0,1479376487,,"colorscheme molokai"
-:PluginInstall
-|2,0,1479369519,,"PluginInstall"
 :colorscheme nightly
 |2,0,1479369492,,"colorscheme nightly"
 :colorscheme pablo
@@ -85,8 +87,6 @@ $
 |2,0,1478699812,,"qall"
 :wq:1
 |2,0,1478698030,,"wq:1"
-:wq
-|2,0,1478696567,,"wq"
 :edit /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc
 |2,0,1478692478,,"edit /data/data/com.termux/files/usr/google-cloud-sdk/path.bash.inc"
 :VirtualEnvList
@@ -119,6 +119,8 @@ $
 |2,0,1478533628,,"edit /data/data/com.termux/files/usr/tmp/tmp.knFA3B4V6g/install_google"
 
 # Search String History (newest to oldest):
+?/vim-airline
+|2,1,1479713643,47,"vim-airline"
 ? \s\+$
 |2,1,1479669866,,"\\s\\+$"
 ?/python
@@ -268,241 +270,348 @@ $
 |3,0,36,0,1,0,1479404186,"0"
 
 # File marks:
-'0  1  0  ~/gcloud/getting-started-python/2-structured-data/requirements.txt
-|4,48,1,0,1479670566,"~/gcloud/getting-started-python/2-structured-data/requirements.txt"
-'1  3  11  ~/.bashrc
-|4,49,3,11,1479669019,"~/.bashrc"
-'2  3  8  ~/.bashrc
-|4,50,3,8,1479668943,"~/.bashrc"
-'3  1  0  ~/наслед.py
-|4,51,1,0,1479461183,"~/наслед.py"
-'4  1  0  ~/наслед.py
-|4,52,1,0,1479460561,"~/наслед.py"
-'5  15  17  ~/наслед.py
-|4,53,15,17,1479452890,"~/наслед.py"
-'6  1  17  ~/наслед.py
-|4,54,1,17,1479452890,"~/наслед.py"
-'7  15  17  ~/наслед.py
-|4,55,15,17,1479452890,"~/наслед.py"
-'8  15  17  ~/наслед.py
-|4,56,15,17,1479452890,"~/наслед.py"
-'9  1  17  ~/наслед.py
-|4,57,1,17,1479452890,"~/наслед.py"
+'0  18  111  ~/.vimrc
+|4,48,18,111,1479714127,"~/.vimrc"
+'1  18  37  ~/.vimrc
+|4,49,18,37,1479713790,"~/.vimrc"
+'2  1  0  ~/.vim/.vimrc
+|4,50,1,0,1479713519,"~/.vim/.vimrc"
+'3  43  38  ~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/view.html
+|4,51,43,38,1479703757,"~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/view.html"
+'4  40  36  ~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/list.html
+|4,52,40,36,1479703388,"~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/list.html"
+'5  49  15  ~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/form.html
+|4,53,49,15,1479702328,"~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/form.html"
+'6  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/base.html
+|4,54,1,0,1479702128,"~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/base.html"
+'7  40  6  ~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/base.html
+|4,55,40,6,1479702104,"~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/base.html"
+'8  40  6  ~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/base.html
+|4,56,40,6,1479702104,"~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/base.html"
+'9  1  0  ~/gcloud/getting-started-python/.git/config
+|4,57,1,0,1479701553,"~/gcloud/getting-started-python/.git/config"
 
 # Jumplist (newest first):
--'  1  0  ~/gcloud/getting-started-python/2-structured-data/requirements.txt
-|4,39,1,0,1479670566,"~/gcloud/getting-started-python/2-structured-data/requirements.txt"
--'  1  0  ~/gcloud/getting-started-python/2-structured-data/config.py
-|4,39,1,0,1479669713,"~/gcloud/getting-started-python/2-structured-data/config.py"
--'  1  0  ~/gcloud/getting-started-python/2-structured-data/config.py
-|4,39,1,0,1479669713,"~/gcloud/getting-started-python/2-structured-data/config.py"
--'  3  11  ~/.bashrc
-|4,39,3,11,1479669019,"~/.bashrc"
--'  3  11  ~/.bashrc
-|4,39,3,11,1479669019,"~/.bashrc"
--'  3  11  ~/.bashrc
-|4,39,3,11,1479669019,"~/.bashrc"
--'  3  11  ~/.bashrc
-|4,39,3,11,1479669019,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1479668978,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1479668978,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1479668978,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1479668978,"~/.bashrc"
--'  3  8  ~/.bashrc
-|4,39,3,8,1479668943,"~/.bashrc"
--'  3  8  ~/.bashrc
-|4,39,3,8,1479668943,"~/.bashrc"
--'  3  8  ~/.bashrc
-|4,39,3,8,1479668943,"~/.bashrc"
--'  3  8  ~/.bashrc
-|4,39,3,8,1479668943,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1479668920,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1479668920,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1479668920,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1479668920,"~/.bashrc"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479461183,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  1  0  ~/наслед.py
-|4,39,1,0,1479460561,"~/наслед.py"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
--'  12  9  ~/ipython - 2
-|4,39,12,9,1479460495,"~/ipython - 2"
+-'  18  111  ~/.vimrc
+|4,39,18,111,1479714127,"~/.vimrc"
+-'  18  111  ~/.vimrc
+|4,39,18,111,1479714127,"~/.vimrc"
+-'  32  2  ~/dotfiles/README.md
+|4,39,32,2,1479714053,"~/dotfiles/README.md"
+-'  32  2  ~/dotfiles/README.md
+|4,39,32,2,1479714053,"~/dotfiles/README.md"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479713904,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479713904,"~/.vimrc"
+-'  18  37  ~/.vimrc
+|4,39,18,37,1479713790,"~/.vimrc"
+-'  18  37  ~/.vimrc
+|4,39,18,37,1479713790,"~/.vimrc"
+-'  18  37  ~/.vimrc
+|4,39,18,37,1479713790,"~/.vimrc"
+-'  18  37  ~/.vimrc
+|4,39,18,37,1479713790,"~/.vimrc"
+-'  199  2  ~/.vimrc
+|4,39,199,2,1479713652,"~/.vimrc"
+-'  199  2  ~/.vimrc
+|4,39,199,2,1479713652,"~/.vimrc"
+-'  199  2  ~/.vimrc
+|4,39,199,2,1479713652,"~/.vimrc"
+-'  199  2  ~/.vimrc
+|4,39,199,2,1479713652,"~/.vimrc"
+-'  199  2  ~/.vimrc
+|4,39,199,2,1479713652,"~/.vimrc"
+-'  199  2  ~/.vimrc
+|4,39,199,2,1479713652,"~/.vimrc"
+-'  201  0  ~/.vimrc
+|4,39,201,0,1479713646,"~/.vimrc"
+-'  201  0  ~/.vimrc
+|4,39,201,0,1479713646,"~/.vimrc"
+-'  201  0  ~/.vimrc
+|4,39,201,0,1479713646,"~/.vimrc"
+-'  201  0  ~/.vimrc
+|4,39,201,0,1479713646,"~/.vimrc"
+-'  201  0  ~/.vimrc
+|4,39,201,0,1479713646,"~/.vimrc"
+-'  201  0  ~/.vimrc
+|4,39,201,0,1479713646,"~/.vimrc"
+-'  44  0  ~/.vimrc
+|4,39,44,0,1479713643,"~/.vimrc"
+-'  44  0  ~/.vimrc
+|4,39,44,0,1479713643,"~/.vimrc"
+-'  44  0  ~/.vimrc
+|4,39,44,0,1479713643,"~/.vimrc"
+-'  44  0  ~/.vimrc
+|4,39,44,0,1479713643,"~/.vimrc"
+-'  44  0  ~/.vimrc
+|4,39,44,0,1479713643,"~/.vimrc"
+-'  44  0  ~/.vimrc
+|4,39,44,0,1479713643,"~/.vimrc"
+-'  41  0  ~/.vimrc
+|4,39,41,0,1479713595,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479713595,"~/.vimrc"
+-'  41  0  ~/.vimrc
+|4,39,41,0,1479713595,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479713595,"~/.vimrc"
+-'  41  0  ~/.vimrc
+|4,39,41,0,1479713595,"~/.vimrc"
+-'  41  0  ~/.vimrc
+|4,39,41,0,1479713595,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479713595,"~/.vimrc"
+-'  41  0  ~/.vimrc
+|4,39,41,0,1479713595,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1479713595,"~/.vimrc"
+-'  41  0  ~/.vimrc
+|4,39,41,0,1479713595,"~/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vimrc
+|4,39,1,0,1479713519,"~/.vim/.vimrc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/.vim/.vi,rc
+|4,39,1,0,1479713499,"~/.vim/.vi,rc"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
+-'  1  0  ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+|4,39,1,0,1479713431,"~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/.vimrc
+	*	1479714123	0
+	"	18	111
+	^	18	113
+	.	18	111
+	+	1	0
+	+	2	39
+	+	20	0
+	+	2	0
+	+	177	33
+	+	178	30
+	+	175	31
+	+	176	36
+	+	92	18
+	+	175	34
+	+	176	41
+	+	175	36
+	+	354	33
+	+	355	30
+	+	177	33
+	+	178	30
+	+	175	31
+	+	176	36
+	+	18	40
+	+	22	95
+	+	18	111
+	m	199	2
+	n	199	3
+
+> ~/NERD_tree_1
+	*	1479714052	0
+	"	128	9
+	.	1	0
+	+	1	0
+
+> ~/dotfiles/README.md
+	*	1479714001	0
+	"	32	2
+
+> ~/.vim/.vimrc
+	*	1479713510	0
+	"	1	0
+
+> ~/.vim/.vi,rc
+	*	1479713499	0
+	"	1	0
+
+> ~/gcloud/getting-started-python/2-structured-data/bookshelf/crud.py
+	*	1479713431	0
+	"	1	0
+
+> ~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/view.html
+	*	1479703750	0
+	"	43	38
+	^	43	39
+	.	43	38
+	+	21	12
+	+	26	39
+	+	30	27
+	+	43	36
+	+	40	20
+	+	42	9
+	+	43	38
+
+> ~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/list.html
+	*	1479703386	0
+	"	40	36
+	^	40	37
+	.	46	60
+	+	21	12
+	+	24	27
+	+	40	31
+	+	46	60
+
+> ~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/form.html
+	*	1479702324	0
+	"	49	15
+	^	49	16
+	.	45	64
+	+	26	31
+	+	31	32
+	+	36	58
+	+	41	43
+	+	45	64
+
+> ~/gcloud/getting-started-python/2-structured-data/bookshelf/templates/base.html
+	*	1479702125	0
+	"	1	0
+	^	40	7
+	.	37	10
+	+	19	106
+	+	28	59
+	+	31	39
+	+	37	10
+
+> ~/gcloud/getting-started-python/.git/config
+	*	1479701551	0
+	"	1	0
+	^	7	66
+	.	7	65
+	+	7	65
+
+> ~/gcloud/getting-started-python/2-structured-data/config.py
+	*	1479699232	0
+	"	1	0
+	^	76	0
+	.	35	21
+	+	35	21
+
+> ~/gcloud/google-cloud-sdk/bin/git-credential-gcloud.sh
+	*	1479697948	0
+	"	1	0
+	^	1	9
+	.	1	9
+	+	1	9
 
 > ~/gcloud/getting-started-python/2-structured-data/requirements.txt
 	*	1479670534	0
 	"	1	0
-
-> ~/gcloud/getting-started-python/2-structured-data/config.py
-	*	1479669860	0
-	"	46	0
-	^	76	0
-	.	35	21
-	+	35	21
 
 > ~/gcloud/NERD_tree_1
 	*	1479669712	0
@@ -600,30 +709,6 @@ $
 	.	1	0
 	+	1	0
 
-> ~/.vimrc
-	*	1479452869	0
-	"	176	36
-	^	176	37
-	.	176	36
-	+	1	0
-	+	2	39
-	+	20	0
-	+	2	0
-	+	177	33
-	+	178	30
-	+	175	31
-	+	176	36
-	+	92	18
-	+	175	34
-	+	176	41
-	+	175	36
-	+	354	33
-	+	355	30
-	+	177	33
-	+	178	30
-	+	175	31
-	+	176	36
-
 > ~/python - 2
 	*	1479404867	0
 	"	3	62
@@ -720,12 +805,6 @@ $
 > ~/[unite] - default
 	*	1479404150	0
 	"	1	5
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_1
-	*	1479403972	0
-	"	4	3
 	.	1	0
 	+	1	0
 

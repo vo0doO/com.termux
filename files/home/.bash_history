@@ -498,3 +498,10 @@ python
 python .py
 python 
 exit
+gcloud
+$gcloud 
+$gcloud source repos clone google-cloud-python
+$gcloud source repos clone google-cloud-python ~/storage/
+$gcloud source repos clone google-cloud-python ~/storage/shared
+$gcloud source repos clone google-cloud-python gcloud/gcode/
+exit

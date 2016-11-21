@@ -1,0 +1,4 @@
+2016-11-21 06:08:34,857 DEBUG    root            Loaded Command Group: ['gcloud', 'source']
+2016-11-21 06:08:34,863 DEBUG    root            Loaded Command Group: ['gcloud', 'source', 'repos']
+2016-11-21 06:08:34,872 DEBUG    root            Loaded Command Group: ['gcloud', 'source', 'repos', 'clone']
+2016-11-21 06:08:34,878 ERROR    root            (gcloud.source.repos.clone) unrecognized arguments: --prpject=projectvo0do0s

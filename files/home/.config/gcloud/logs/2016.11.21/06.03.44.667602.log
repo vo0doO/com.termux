@@ -1,0 +1,33 @@
+2016-11-21 06:03:44,710 DEBUG    root            Loaded Command Group: ['gcloud', 'source']
+2016-11-21 06:03:44,715 DEBUG    root            Loaded Command Group: ['gcloud', 'source', 'repos']
+2016-11-21 06:03:44,723 DEBUG    root            Loaded Command Group: ['gcloud', 'source', 'repos', 'clone']
+2016-11-21 06:03:44,746 INFO     oauth2client.client Refreshing access_token
+2016-11-21 06:03:45,260 DEBUG    root            Running gcloud.source.repos.clone with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.source.repos.clone', usage=None, description='Clone project git repository in the current directory.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0xb5b34d50>, command_path=['gcloud', 'source', 'repos', 'clone'], configuration=None, credential_file_override=None, document=None, dry_run=False, dst=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, project='projectvo0do0s', quiet=None, src='google-cloud-python', trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2016-11-21 06:03:45,301 ERROR    ___FILE_ONLY___ Handling the source of a tool exception, original details follow.
+2016-11-21 06:03:45,302 ERROR    ___FILE_ONLY___ Could not find gcloud's git credential helper. Please make sure the Cloud SDK bin folder is in PATH.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/exceptions.py", line 119, in TryFunc
+    return func(*args, **kwargs)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/surface/source/repos/clone.py", line 97, in Run
+    dry_run=args.dry_run)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/source/git.py", line 514, in Clone
+    'credential.helper="{0}"'.format(_GetCredentialHelper())]
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/source/git.py", line 176, in _GetCredentialHelper
+    'Could not find gcloud\'s git credential helper. '
+MissingCredentialHelper: Could not find gcloud's git credential helper. Please make sure the Cloud SDK bin folder is in PATH.
+2016-11-21 06:03:45,309 DEBUG    root            (gcloud.source.repos.clone) Could not find gcloud's git credential helper. Please make sure the Cloud SDK bin folder is in PATH.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 740, in Execute
+    resources = args.calliope_command.Run(cli=self, args=args)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 1648, in Run
+    resources = command_instance.Run(args)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/calliope/exceptions.py", line 119, in TryFunc
+    return func(*args, **kwargs)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/surface/source/repos/clone.py", line 97, in Run
+    dry_run=args.dry_run)
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/source/git.py", line 514, in Clone
+    'credential.helper="{0}"'.format(_GetCredentialHelper())]
+  File "/data/data/com.termux/files/home/gcloud/google-cloud-sdk/lib/googlecloudsdk/api_lib/source/git.py", line 176, in _GetCredentialHelper
+    'Could not find gcloud\'s git credential helper. '
+ToolException: Could not find gcloud's git credential helper. Please make sure the Cloud SDK bin folder is in PATH.
+2016-11-21 06:03:45,321 ERROR    root            (gcloud.source.repos.clone) Could not find gcloud's git credential helper. Please make sure the Cloud SDK bin folder is in PATH.

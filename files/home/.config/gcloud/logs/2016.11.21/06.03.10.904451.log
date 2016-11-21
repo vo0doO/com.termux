@@ -1,0 +1,9 @@
+2016-11-21 06:03:10,989 DEBUG    root            Loaded Command Group: ['gcloud', 'source']
+2016-11-21 06:03:10,997 DEBUG    root            Loaded Command Group: ['gcloud', 'source', 'repos']
+2016-11-21 06:03:11,011 DEBUG    root            Loaded Command Group: ['gcloud', 'source', 'repos', 'clone']
+2016-11-21 06:03:11,154 INFO     oauth2client.client Refreshing access_token
+2016-11-21 06:03:17,940 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

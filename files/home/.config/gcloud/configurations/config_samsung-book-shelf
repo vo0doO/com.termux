@@ -1,0 +1,8 @@
+[core]
+account = danilakirsanovspb@gmail.com
+project = projectvo0do0s
+
+[compute]
+zone = asia-east1-a
+region = asia-east1
+
